@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Valeria Vargas",
+    "username": "trainer1",
+    "type": "Personal"
+  },
+  {
+    "id": 2,
+    "name": "Pablo Brenes",
+    "username": "trainer2",
+    "type": "Personal"
+  },
+  {
+    "id": 3,
+    "name": "Pablo Calderon",
+    "username": "trainer3",
+    "type": "Personal"
+  },
+  {
+    "id": 4,
+    "name": "Camila Herrera",
+    "username": "trainer4",
+    "type": "Personal"
+  },
+  {
+    "id": 5,
+    "name": "Ricardo Salas",
+    "username": "trainer5",
+    "type": "Gym"
+  },
+  {
+    "id": 6,
+    "name": "Elena Herrera",
+    "username": "trainer6",
+    "type": "Gym"
+  },
+  {
+    "id": 7,
+    "name": "Daniela Vega",
+    "username": "trainer7",
+    "type": "Gym"
+  },
+  {
+    "id": 8,
+    "name": "Karla Quiros",
+    "username": "trainer8",
+    "type": "Personal"
+  },
+  {
+    "id": 9,
+    "name": "Carlos Alvarado",
+    "username": "trainer9",
+    "type": "Personal"
+  },
+  {
+    "id": 10,
+    "name": "Esteban Mora",
+    "username": "trainer10",
+    "type": "Gym"
+  },
+  {
+    "id": 11,
+    "name": "Paula Alvarado",
+    "username": "trainer11",
+    "type": "Personal"
+  },
+  {
+    "id": 12,
+    "name": "Carlos Rojas",
+    "username": "trainer12",
+    "type": "Gym"
+  },
+  {
+    "id": 13,
+    "name": "Andres Soto",
+    "username": "trainer13",
+    "type": "Gym"
+  },
+  {
+    "id": 14,
+    "name": "Sofia Solano",
+    "username": "trainer14",
+    "type": "Personal"
+  },
+  {
+    "id": 15,
+    "name": "Ricardo Araya",
+    "username": "trainer15",
+    "type": "Gym"
+  },
+  {
+    "id": 16,
+    "name": "Karla Vargas",
+    "username": "trainer16",
+    "type": "Gym"
+  },
+  {
+    "id": 17,
+    "name": "Camila Soto",
+    "username": "trainer17",
+    "type": "Personal"
+  },
+  {
+    "id": 18,
+    "name": "Paula Solano",
+    "username": "trainer18",
+    "type": "Personal"
+  },
+  {
+    "id": 19,
+    "name": "Sofia Castro",
+    "username": "trainer19",
+    "type": "Gym"
+  },
+  {
+    "id": 20,
+    "name": "Ricardo Salas",
+    "username": "trainer20",
+    "type": "Gym"
+  },
+  {
+    "id": 21,
+    "name": "Luis Porras",
+    "username": "trainer21",
+    "type": "Personal"
+  },
+  {
+    "id": 22,
+    "name": "Carlos Quiros",
+    "username": "trainer22",
+    "type": "Gym"
+  },
+  {
+    "id": 23,
+    "name": "Ricardo Quiros",
+    "username": "trainer23",
+    "type": "Gym"
+  },
+  {
+    "id": 24,
+    "name": "Sofia Castro",
+    "username": "trainer24",
+    "type": "Personal"
+  },
+  {
+    "id": 25,
+    "name": "Ana Zuniga",
+    "username": "trainer25",
+    "type": "Gym"
+  },
+  {
+    "id": 26,
+    "name": "Mateo Herrera",
+    "username": "trainer26",
+    "type": "Personal"
+  },
+  {
+    "id": 27,
+    "name": "Paula Mora",
+    "username": "trainer27",
+    "type": "Personal"
+  },
+  {
+    "id": 28,
+    "name": "Valeria Soto",
+    "username": "trainer28",
+    "type": "Personal"
+  },
+  {
+    "id": 29,
+    "name": "Carlos Mora",
+    "username": "trainer29",
+    "type": "Personal"
+  },
+  {
+    "id": 30,
+    "name": "Paula Mora",
+    "username": "trainer30",
+    "type": "Gym"
+  },
+  {
+    "id": 31,
+    "name": "Marta Herrera",
+    "username": "trainer31",
+    "type": "Gym"
+  },
+  {
+    "id": 32,
+    "name": "Elena Soto",
+    "username": "trainer32",
+    "type": "Personal"
+  },
+  {
+    "id": 33,
+    "name": "Sergio Zuniga",
+    "username": "trainer33",
+    "type": "Personal"
+  },
+  {
+    "id": 34,
+    "name": "Sofia Solano",
+    "username": "trainer34",
+    "type": "Gym"
+  },
+  {
+    "id": 35,
+    "name": "Esteban Solano",
+    "username": "trainer35",
+    "type": "Personal"
+  },
+  {
+    "id": 36,
+    "name": "Camila Salas",
+    "username": "trainer36",
+    "type": "Gym"
+  },
+  {
+    "id": 37,
+    "name": "Diego Herrera",
+    "username": "trainer37",
+    "type": "Gym"
+  },
+  {
+    "id": 38,
+    "name": "Esteban Solano",
+    "username": "trainer38",
+    "type": "Personal"
+  },
+  {
+    "id": 39,
+    "name": "Andres Vega",
+    "username": "trainer39",
+    "type": "Gym"
+  },
+  {
+    "id": 40,
+    "name": "Marta Rojas",
+    "username": "trainer40",
+    "type": "Personal"
+  },
+  {
+    "id": 41,
+    "name": "Esteban Quiros",
+    "username": "trainer41",
+    "type": "Gym"
+  },
+  {
+    "id": 42,
+    "name": "Pablo Jimenez",
+    "username": "trainer42",
+    "type": "Gym"
+  },
+  {
+    "id": 43,
+    "name": "Mateo Calderon",
+    "username": "trainer43",
+    "type": "Gym"
+  },
+  {
+    "id": 44,
+    "name": "Valeria Brenes",
+    "username": "trainer44",
+    "type": "Gym"
+  },
+  {
+    "id": 45,
+    "name": "Valeria Jimenez",
+    "username": "trainer45",
+    "type": "Personal"
+  }
+]

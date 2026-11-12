@@ -1,0 +1,8514 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "trainerId": 39,
+    "name": "Routine 1",
+    "startDate": "2026-06-16",
+    "endDate": "2026-07-14",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 58
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 66
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 94
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "trainerId": 39,
+    "name": "Routine 2",
+    "startDate": "2026-07-04",
+    "endDate": "2026-08-01",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 50
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 43
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 90
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "userId": 1,
+    "trainerId": 39,
+    "name": "Routine 3",
+    "startDate": "2026-07-29",
+    "endDate": "2026-08-26",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 44
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 68
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 61
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "userId": 1,
+    "trainerId": 39,
+    "name": "Routine 4",
+    "startDate": "2026-08-22",
+    "endDate": "2026-09-19",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 96
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 76
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 55
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "userId": 1,
+    "trainerId": 39,
+    "name": "Routine 5",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-06",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 11
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 99
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 52
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "userId": 1,
+    "trainerId": 39,
+    "name": "Routine 6",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-29",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 11
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 91
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 51
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "userId": 2,
+    "trainerId": 16,
+    "name": "Routine 1",
+    "startDate": "2026-06-11",
+    "endDate": "2026-07-09",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 89
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 20
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 78
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "userId": 2,
+    "trainerId": 16,
+    "name": "Routine 2",
+    "startDate": "2026-07-03",
+    "endDate": "2026-07-31",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 69
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 96
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 20
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "userId": 2,
+    "trainerId": 16,
+    "name": "Routine 3",
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-24",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 81
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 13
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 15
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "userId": 2,
+    "trainerId": 16,
+    "name": "Routine 4",
+    "startDate": "2026-08-21",
+    "endDate": "2026-09-18",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 53
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 87
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 72
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "userId": 2,
+    "trainerId": 16,
+    "name": "Routine 5",
+    "startDate": "2026-09-11",
+    "endDate": "2026-10-09",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 12
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 42
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 57
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "userId": 3,
+    "trainerId": 32,
+    "name": "Routine 1",
+    "startDate": "2026-06-13",
+    "endDate": "2026-07-11",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 62
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 97
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 71
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "userId": 3,
+    "trainerId": 32,
+    "name": "Routine 2",
+    "startDate": "2026-07-05",
+    "endDate": "2026-08-02",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 51
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 94
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 33
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "userId": 3,
+    "trainerId": 32,
+    "name": "Routine 3",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-28",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 59
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 87
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 69
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "userId": 3,
+    "trainerId": 32,
+    "name": "Routine 4",
+    "startDate": "2026-08-21",
+    "endDate": "2026-09-18",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 75
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 72
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 96
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "userId": 3,
+    "trainerId": 32,
+    "name": "Routine 5",
+    "startDate": "2026-09-07",
+    "endDate": "2026-10-05",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 88
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 34
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 80
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "userId": 3,
+    "trainerId": 32,
+    "name": "Routine 6",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-28",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 17
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 45
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 27
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "userId": 4,
+    "trainerId": 41,
+    "name": "Routine 1",
+    "startDate": "2026-06-13",
+    "endDate": "2026-07-11",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 98
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 97
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 92
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "userId": 4,
+    "trainerId": 41,
+    "name": "Routine 2",
+    "startDate": "2026-07-05",
+    "endDate": "2026-08-02",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 75
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 21
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 29
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "userId": 4,
+    "trainerId": 41,
+    "name": "Routine 3",
+    "startDate": "2026-07-29",
+    "endDate": "2026-08-26",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 10
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 55
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 52
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "userId": 4,
+    "trainerId": 41,
+    "name": "Routine 4",
+    "startDate": "2026-08-16",
+    "endDate": "2026-09-13",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 64
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 35
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 38
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "userId": 4,
+    "trainerId": 41,
+    "name": "Routine 5",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-06",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 64
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 68
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 49
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "userId": 4,
+    "trainerId": 41,
+    "name": "Routine 6",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-28",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 37
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 24
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 96
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "userId": 5,
+    "trainerId": 42,
+    "name": "Routine 1",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-10",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 34
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 80
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 46
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "userId": 5,
+    "trainerId": 42,
+    "name": "Routine 2",
+    "startDate": "2026-07-04",
+    "endDate": "2026-08-01",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 68
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 72
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 28
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "userId": 5,
+    "trainerId": 42,
+    "name": "Routine 3",
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-24",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 91
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 99
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 51
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "userId": 5,
+    "trainerId": 42,
+    "name": "Routine 4",
+    "startDate": "2026-08-16",
+    "endDate": "2026-09-13",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 54
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 77
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 47
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "userId": 5,
+    "trainerId": 42,
+    "name": "Routine 5",
+    "startDate": "2026-09-13",
+    "endDate": "2026-10-11",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 67
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 59
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 68
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "userId": 5,
+    "trainerId": 42,
+    "name": "Routine 6",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-29",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 27
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 60
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 78
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "userId": 5,
+    "trainerId": 42,
+    "name": "Routine 7",
+    "startDate": "2026-10-21",
+    "endDate": "2026-11-18",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 87
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 52
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 49
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "userId": 6,
+    "trainerId": 28,
+    "name": "Routine 1",
+    "startDate": "2026-06-16",
+    "endDate": "2026-07-14",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 61
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 50
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 72
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "userId": 6,
+    "trainerId": 28,
+    "name": "Routine 2",
+    "startDate": "2026-07-08",
+    "endDate": "2026-08-05",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 70
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 71
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 73
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "userId": 6,
+    "trainerId": 28,
+    "name": "Routine 3",
+    "startDate": "2026-07-30",
+    "endDate": "2026-08-27",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 27
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 76
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 65
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "userId": 6,
+    "trainerId": 28,
+    "name": "Routine 4",
+    "startDate": "2026-08-16",
+    "endDate": "2026-09-13",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 77
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 57
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 19
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "userId": 6,
+    "trainerId": 28,
+    "name": "Routine 5",
+    "startDate": "2026-09-09",
+    "endDate": "2026-10-07",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 63
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 41
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 43
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "userId": 6,
+    "trainerId": 28,
+    "name": "Routine 6",
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-27",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 42
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 37
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 24
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "userId": 7,
+    "trainerId": 39,
+    "name": "Routine 1",
+    "startDate": "2026-06-13",
+    "endDate": "2026-07-11",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 90
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 93
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 16
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "userId": 7,
+    "trainerId": 39,
+    "name": "Routine 2",
+    "startDate": "2026-07-07",
+    "endDate": "2026-08-04",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 36
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 89
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 70
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "userId": 7,
+    "trainerId": 39,
+    "name": "Routine 3",
+    "startDate": "2026-07-29",
+    "endDate": "2026-08-26",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 80
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 84
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 73
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "userId": 7,
+    "trainerId": 39,
+    "name": "Routine 4",
+    "startDate": "2026-08-16",
+    "endDate": "2026-09-13",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 60
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 41
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 62
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "userId": 7,
+    "trainerId": 39,
+    "name": "Routine 5",
+    "startDate": "2026-09-10",
+    "endDate": "2026-10-08",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 31
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 81
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 53
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "userId": 7,
+    "trainerId": 39,
+    "name": "Routine 6",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-30",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 21
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 19
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 82
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "userId": 8,
+    "trainerId": 34,
+    "name": "Routine 1",
+    "startDate": "2026-06-11",
+    "endDate": "2026-07-09",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 97
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 73
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 27
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "userId": 8,
+    "trainerId": 34,
+    "name": "Routine 2",
+    "startDate": "2026-07-09",
+    "endDate": "2026-08-06",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 95
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 75
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 97
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "userId": 8,
+    "trainerId": 34,
+    "name": "Routine 3",
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-24",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 58
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 86
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 97
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "userId": 8,
+    "trainerId": 34,
+    "name": "Routine 4",
+    "startDate": "2026-08-18",
+    "endDate": "2026-09-15",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 13
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 68
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 41
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "userId": 8,
+    "trainerId": 34,
+    "name": "Routine 5",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-06",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 94
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 18
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 88
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "userId": 8,
+    "trainerId": 34,
+    "name": "Routine 6",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-29",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 66
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 29
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 66
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "userId": 8,
+    "trainerId": 34,
+    "name": "Routine 7",
+    "startDate": "2026-10-23",
+    "endDate": "2026-11-20",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 18
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 66
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 42
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "userId": 9,
+    "trainerId": 7,
+    "name": "Routine 1",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-10",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 23
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 13
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 99
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "userId": 9,
+    "trainerId": 7,
+    "name": "Routine 2",
+    "startDate": "2026-07-07",
+    "endDate": "2026-08-04",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 31
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 59
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 52
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "userId": 9,
+    "trainerId": 7,
+    "name": "Routine 3",
+    "startDate": "2026-07-26",
+    "endDate": "2026-08-23",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 79
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 98
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 67
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "userId": 9,
+    "trainerId": 7,
+    "name": "Routine 4",
+    "startDate": "2026-08-21",
+    "endDate": "2026-09-18",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 35
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 65
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 26
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "userId": 9,
+    "trainerId": 7,
+    "name": "Routine 5",
+    "startDate": "2026-09-10",
+    "endDate": "2026-10-08",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 88
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 86
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 81
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "userId": 9,
+    "trainerId": 7,
+    "name": "Routine 6",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-31",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 75
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 74
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 59
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "userId": 10,
+    "trainerId": 45,
+    "name": "Routine 1",
+    "startDate": "2026-06-16",
+    "endDate": "2026-07-14",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 89
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 81
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 55
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "userId": 10,
+    "trainerId": 45,
+    "name": "Routine 2",
+    "startDate": "2026-07-03",
+    "endDate": "2026-07-31",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 72
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 70
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 75
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "userId": 10,
+    "trainerId": 45,
+    "name": "Routine 3",
+    "startDate": "2026-07-30",
+    "endDate": "2026-08-27",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 24
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 25
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 54
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "userId": 10,
+    "trainerId": 45,
+    "name": "Routine 4",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 10
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 53
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 68
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "userId": 10,
+    "trainerId": 45,
+    "name": "Routine 5",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-06",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 80
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 86
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 21
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "userId": 10,
+    "trainerId": 45,
+    "name": "Routine 6",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-31",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 80
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 21
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 64
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "userId": 10,
+    "trainerId": 45,
+    "name": "Routine 7",
+    "startDate": "2026-10-27",
+    "endDate": "2026-11-24",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 54
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 16
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 64
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "userId": 11,
+    "trainerId": 26,
+    "name": "Routine 1",
+    "startDate": "2026-06-17",
+    "endDate": "2026-07-15",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 64
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 31
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 87
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "userId": 11,
+    "trainerId": 26,
+    "name": "Routine 2",
+    "startDate": "2026-07-05",
+    "endDate": "2026-08-02",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 56
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 91
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 89
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "userId": 11,
+    "trainerId": 26,
+    "name": "Routine 3",
+    "startDate": "2026-07-29",
+    "endDate": "2026-08-26",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 39
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 77
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 63
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "userId": 11,
+    "trainerId": 26,
+    "name": "Routine 4",
+    "startDate": "2026-08-20",
+    "endDate": "2026-09-17",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 68
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 43
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 66
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "userId": 11,
+    "trainerId": 26,
+    "name": "Routine 5",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-10",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 49
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 41
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 86
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "userId": 11,
+    "trainerId": 26,
+    "name": "Routine 6",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-29",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 94
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 92
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 69
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "userId": 11,
+    "trainerId": 26,
+    "name": "Routine 7",
+    "startDate": "2026-10-23",
+    "endDate": "2026-11-20",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 97
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 51
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 55
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "userId": 12,
+    "trainerId": 13,
+    "name": "Routine 1",
+    "startDate": "2026-06-11",
+    "endDate": "2026-07-09",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 71
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 62
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 87
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "userId": 12,
+    "trainerId": 13,
+    "name": "Routine 2",
+    "startDate": "2026-07-09",
+    "endDate": "2026-08-06",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 52
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 59
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 10
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "userId": 12,
+    "trainerId": 13,
+    "name": "Routine 3",
+    "startDate": "2026-07-30",
+    "endDate": "2026-08-27",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 16
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 89
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 23
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "userId": 12,
+    "trainerId": 13,
+    "name": "Routine 4",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 39
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 23
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 59
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "userId": 12,
+    "trainerId": 13,
+    "name": "Routine 5",
+    "startDate": "2026-09-13",
+    "endDate": "2026-10-11",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 46
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 81
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 34
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "userId": 13,
+    "trainerId": 32,
+    "name": "Routine 1",
+    "startDate": "2026-06-14",
+    "endDate": "2026-07-12",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 31
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 16
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 83
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "userId": 13,
+    "trainerId": 32,
+    "name": "Routine 2",
+    "startDate": "2026-07-06",
+    "endDate": "2026-08-03",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 10
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 26
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 44
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "userId": 13,
+    "trainerId": 32,
+    "name": "Routine 3",
+    "startDate": "2026-07-26",
+    "endDate": "2026-08-23",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 51
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 13
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 69
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "userId": 13,
+    "trainerId": 32,
+    "name": "Routine 4",
+    "startDate": "2026-08-19",
+    "endDate": "2026-09-16",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 56
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 45
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 34
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "userId": 13,
+    "trainerId": 32,
+    "name": "Routine 5",
+    "startDate": "2026-09-11",
+    "endDate": "2026-10-09",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 24
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 98
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 81
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "userId": 14,
+    "trainerId": 36,
+    "name": "Routine 1",
+    "startDate": "2026-06-11",
+    "endDate": "2026-07-09",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 42
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 59
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 92
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "userId": 14,
+    "trainerId": 36,
+    "name": "Routine 2",
+    "startDate": "2026-07-06",
+    "endDate": "2026-08-03",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 70
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 27
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 78
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "userId": 14,
+    "trainerId": 36,
+    "name": "Routine 3",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-28",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 70
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 49
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 68
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "userId": 14,
+    "trainerId": 36,
+    "name": "Routine 4",
+    "startDate": "2026-08-19",
+    "endDate": "2026-09-16",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 96
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 71
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 48
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "userId": 14,
+    "trainerId": 36,
+    "name": "Routine 5",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-10",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 35
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 79
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 50
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "userId": 14,
+    "trainerId": 36,
+    "name": "Routine 6",
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-01",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 73
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 97
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 88
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "userId": 15,
+    "trainerId": 33,
+    "name": "Routine 1",
+    "startDate": "2026-06-17",
+    "endDate": "2026-07-15",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 97
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 17
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 56
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "userId": 15,
+    "trainerId": 33,
+    "name": "Routine 2",
+    "startDate": "2026-07-08",
+    "endDate": "2026-08-05",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 61
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 91
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 65
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "userId": 15,
+    "trainerId": 33,
+    "name": "Routine 3",
+    "startDate": "2026-07-28",
+    "endDate": "2026-08-25",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 28
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 61
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 25
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "userId": 15,
+    "trainerId": 33,
+    "name": "Routine 4",
+    "startDate": "2026-08-20",
+    "endDate": "2026-09-17",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 45
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 97
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 14
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "userId": 15,
+    "trainerId": 33,
+    "name": "Routine 5",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-06",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 35
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 48
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 65
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "userId": 16,
+    "trainerId": 18,
+    "name": "Routine 1",
+    "startDate": "2026-06-14",
+    "endDate": "2026-07-12",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 60
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 37
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 86
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "userId": 16,
+    "trainerId": 18,
+    "name": "Routine 2",
+    "startDate": "2026-07-05",
+    "endDate": "2026-08-02",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 52
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 34
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 33
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "userId": 16,
+    "trainerId": 18,
+    "name": "Routine 3",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-28",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 49
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 69
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 45
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "userId": 16,
+    "trainerId": 18,
+    "name": "Routine 4",
+    "startDate": "2026-08-16",
+    "endDate": "2026-09-13",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 45
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 99
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 77
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "userId": 16,
+    "trainerId": 18,
+    "name": "Routine 5",
+    "startDate": "2026-09-09",
+    "endDate": "2026-10-07",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 25
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 25
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 76
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "userId": 16,
+    "trainerId": 18,
+    "name": "Routine 6",
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-27",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 38
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 96
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 96
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "userId": 17,
+    "trainerId": 6,
+    "name": "Routine 1",
+    "startDate": "2026-06-16",
+    "endDate": "2026-07-14",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 76
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 80
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 44
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "userId": 17,
+    "trainerId": 6,
+    "name": "Routine 2",
+    "startDate": "2026-07-06",
+    "endDate": "2026-08-03",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 57
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 98
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 10
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "userId": 17,
+    "trainerId": 6,
+    "name": "Routine 3",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-28",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 91
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 12
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 12
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "userId": 17,
+    "trainerId": 6,
+    "name": "Routine 4",
+    "startDate": "2026-08-18",
+    "endDate": "2026-09-15",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 29
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 38
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 67
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "userId": 17,
+    "trainerId": 6,
+    "name": "Routine 5",
+    "startDate": "2026-09-13",
+    "endDate": "2026-10-11",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 71
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 98
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 100
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "userId": 17,
+    "trainerId": 6,
+    "name": "Routine 6",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-30",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 55
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 10
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 41
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "userId": 18,
+    "trainerId": 8,
+    "name": "Routine 1",
+    "startDate": "2026-06-16",
+    "endDate": "2026-07-14",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 10
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 31
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 66
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "userId": 18,
+    "trainerId": 8,
+    "name": "Routine 2",
+    "startDate": "2026-07-09",
+    "endDate": "2026-08-06",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 32
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 15
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 63
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "userId": 18,
+    "trainerId": 8,
+    "name": "Routine 3",
+    "startDate": "2026-07-28",
+    "endDate": "2026-08-25",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 87
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 12
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 87
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "userId": 18,
+    "trainerId": 8,
+    "name": "Routine 4",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 36
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 18
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 35
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "userId": 18,
+    "trainerId": 8,
+    "name": "Routine 5",
+    "startDate": "2026-09-10",
+    "endDate": "2026-10-08",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 75
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 57
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 27
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "userId": 18,
+    "trainerId": 8,
+    "name": "Routine 6",
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-27",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 70
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 43
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 17
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "userId": 18,
+    "trainerId": 8,
+    "name": "Routine 7",
+    "startDate": "2026-10-24",
+    "endDate": "2026-11-21",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 73
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 28
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 69
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "userId": 19,
+    "trainerId": 21,
+    "name": "Routine 1",
+    "startDate": "2026-06-15",
+    "endDate": "2026-07-13",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 97
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 58
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 62
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "userId": 19,
+    "trainerId": 21,
+    "name": "Routine 2",
+    "startDate": "2026-07-06",
+    "endDate": "2026-08-03",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 94
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 11
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 100
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "userId": 19,
+    "trainerId": 21,
+    "name": "Routine 3",
+    "startDate": "2026-07-26",
+    "endDate": "2026-08-23",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 47
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 30
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 69
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "userId": 19,
+    "trainerId": 21,
+    "name": "Routine 4",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 15
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 92
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 76
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "userId": 19,
+    "trainerId": 21,
+    "name": "Routine 5",
+    "startDate": "2026-09-09",
+    "endDate": "2026-10-07",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 25
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 16
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 39
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "userId": 20,
+    "trainerId": 15,
+    "name": "Routine 1",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-10",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 56
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 34
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 77
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "userId": 20,
+    "trainerId": 15,
+    "name": "Routine 2",
+    "startDate": "2026-07-03",
+    "endDate": "2026-07-31",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 92
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 22
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 61
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "userId": 20,
+    "trainerId": 15,
+    "name": "Routine 3",
+    "startDate": "2026-07-26",
+    "endDate": "2026-08-23",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 54
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 68
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 31
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "userId": 20,
+    "trainerId": 15,
+    "name": "Routine 4",
+    "startDate": "2026-08-21",
+    "endDate": "2026-09-18",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 60
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 36
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 26
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "userId": 20,
+    "trainerId": 15,
+    "name": "Routine 5",
+    "startDate": "2026-09-10",
+    "endDate": "2026-10-08",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 14
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 56
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 100
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "userId": 20,
+    "trainerId": 15,
+    "name": "Routine 6",
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-27",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 19
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 19
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 31
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "userId": 20,
+    "trainerId": 15,
+    "name": "Routine 7",
+    "startDate": "2026-10-21",
+    "endDate": "2026-11-18",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 19
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 80
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 86
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "userId": 21,
+    "trainerId": 27,
+    "name": "Routine 1",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-10",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 42
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 59
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 34
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "userId": 21,
+    "trainerId": 27,
+    "name": "Routine 2",
+    "startDate": "2026-07-04",
+    "endDate": "2026-08-01",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 30
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 30
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 25
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "userId": 21,
+    "trainerId": 27,
+    "name": "Routine 3",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-28",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 24
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 46
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 12
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "userId": 21,
+    "trainerId": 27,
+    "name": "Routine 4",
+    "startDate": "2026-08-16",
+    "endDate": "2026-09-13",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 91
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 57
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 26
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "userId": 21,
+    "trainerId": 27,
+    "name": "Routine 5",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-10",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 36
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 69
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 15
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "userId": 21,
+    "trainerId": 27,
+    "name": "Routine 6",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-31",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 59
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 46
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 42
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "userId": 21,
+    "trainerId": 27,
+    "name": "Routine 7",
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-23",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 88
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 49
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 61
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "userId": 22,
+    "trainerId": 27,
+    "name": "Routine 1",
+    "startDate": "2026-06-17",
+    "endDate": "2026-07-15",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 38
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 60
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 94
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "userId": 22,
+    "trainerId": 27,
+    "name": "Routine 2",
+    "startDate": "2026-07-07",
+    "endDate": "2026-08-04",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 56
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 83
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 53
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "userId": 22,
+    "trainerId": 27,
+    "name": "Routine 3",
+    "startDate": "2026-07-28",
+    "endDate": "2026-08-25",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 75
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 31
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 71
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "userId": 22,
+    "trainerId": 27,
+    "name": "Routine 4",
+    "startDate": "2026-08-19",
+    "endDate": "2026-09-16",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 46
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 61
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 15
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "userId": 22,
+    "trainerId": 27,
+    "name": "Routine 5",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-10",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 79
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 63
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 71
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "userId": 22,
+    "trainerId": 27,
+    "name": "Routine 6",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-31",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 20
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 79
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 81
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "userId": 23,
+    "trainerId": 5,
+    "name": "Routine 1",
+    "startDate": "2026-06-16",
+    "endDate": "2026-07-14",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 31
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 84
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 66
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "userId": 23,
+    "trainerId": 5,
+    "name": "Routine 2",
+    "startDate": "2026-07-06",
+    "endDate": "2026-08-03",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 73
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 10
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 76
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "userId": 23,
+    "trainerId": 5,
+    "name": "Routine 3",
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-24",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 32
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 31
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 12
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "userId": 23,
+    "trainerId": 5,
+    "name": "Routine 4",
+    "startDate": "2026-08-22",
+    "endDate": "2026-09-19",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 43
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 73
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 16
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "userId": 23,
+    "trainerId": 5,
+    "name": "Routine 5",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-06",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 37
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 66
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 59
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "userId": 23,
+    "trainerId": 5,
+    "name": "Routine 6",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-31",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 65
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 66
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 30
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "userId": 23,
+    "trainerId": 5,
+    "name": "Routine 7",
+    "startDate": "2026-10-27",
+    "endDate": "2026-11-24",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 47
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 92
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 66
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "userId": 24,
+    "trainerId": 31,
+    "name": "Routine 1",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-10",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 85
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 36
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 19
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "userId": 24,
+    "trainerId": 31,
+    "name": "Routine 2",
+    "startDate": "2026-07-08",
+    "endDate": "2026-08-05",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 85
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 69
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 77
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "userId": 24,
+    "trainerId": 31,
+    "name": "Routine 3",
+    "startDate": "2026-07-30",
+    "endDate": "2026-08-27",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 21
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 95
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 57
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "userId": 24,
+    "trainerId": 31,
+    "name": "Routine 4",
+    "startDate": "2026-08-21",
+    "endDate": "2026-09-18",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 53
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 73
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 34
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "userId": 24,
+    "trainerId": 31,
+    "name": "Routine 5",
+    "startDate": "2026-09-10",
+    "endDate": "2026-10-08",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 47
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 65
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 43
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "userId": 25,
+    "trainerId": 40,
+    "name": "Routine 1",
+    "startDate": "2026-06-17",
+    "endDate": "2026-07-15",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 46
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 83
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 91
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "userId": 25,
+    "trainerId": 40,
+    "name": "Routine 2",
+    "startDate": "2026-07-05",
+    "endDate": "2026-08-02",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 68
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 76
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 46
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "userId": 25,
+    "trainerId": 40,
+    "name": "Routine 3",
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-24",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 18
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 15
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 80
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "userId": 25,
+    "trainerId": 40,
+    "name": "Routine 4",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 87
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 63
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 19
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "userId": 25,
+    "trainerId": 40,
+    "name": "Routine 5",
+    "startDate": "2026-09-13",
+    "endDate": "2026-10-11",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 43
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 18
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 55
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "userId": 25,
+    "trainerId": 40,
+    "name": "Routine 6",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-30",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 90
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 18
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 54
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "userId": 26,
+    "trainerId": 39,
+    "name": "Routine 1",
+    "startDate": "2026-06-13",
+    "endDate": "2026-07-11",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 93
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 92
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 17
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "userId": 26,
+    "trainerId": 39,
+    "name": "Routine 2",
+    "startDate": "2026-07-07",
+    "endDate": "2026-08-04",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 38
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 37
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 92
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "userId": 26,
+    "trainerId": 39,
+    "name": "Routine 3",
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-24",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 77
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 28
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 48
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "userId": 26,
+    "trainerId": 39,
+    "name": "Routine 4",
+    "startDate": "2026-08-20",
+    "endDate": "2026-09-17",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 74
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 57
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 55
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "userId": 26,
+    "trainerId": 39,
+    "name": "Routine 5",
+    "startDate": "2026-09-10",
+    "endDate": "2026-10-08",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 44
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 19
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 100
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "userId": 26,
+    "trainerId": 39,
+    "name": "Routine 6",
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-01",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 20
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 73
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 62
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "userId": 27,
+    "trainerId": 42,
+    "name": "Routine 1",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-10",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 92
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 94
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 94
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "userId": 27,
+    "trainerId": 42,
+    "name": "Routine 2",
+    "startDate": "2026-07-08",
+    "endDate": "2026-08-05",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 44
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 72
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 67
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "userId": 27,
+    "trainerId": 42,
+    "name": "Routine 3",
+    "startDate": "2026-07-28",
+    "endDate": "2026-08-25",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 92
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 19
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 49
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "userId": 27,
+    "trainerId": 42,
+    "name": "Routine 4",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 39
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 15
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 91
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "userId": 27,
+    "trainerId": 42,
+    "name": "Routine 5",
+    "startDate": "2026-09-11",
+    "endDate": "2026-10-09",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 84
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 45
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 24
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "userId": 27,
+    "trainerId": 42,
+    "name": "Routine 6",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-29",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 66
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 73
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 99
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "userId": 27,
+    "trainerId": 42,
+    "name": "Routine 7",
+    "startDate": "2026-10-24",
+    "endDate": "2026-11-21",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 11
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 44
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 26
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "userId": 28,
+    "trainerId": 2,
+    "name": "Routine 1",
+    "startDate": "2026-06-15",
+    "endDate": "2026-07-13",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 90
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 96
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 18
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "userId": 28,
+    "trainerId": 2,
+    "name": "Routine 2",
+    "startDate": "2026-07-03",
+    "endDate": "2026-07-31",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 75
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 83
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 95
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "userId": 28,
+    "trainerId": 2,
+    "name": "Routine 3",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-28",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 50
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 62
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 57
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "userId": 28,
+    "trainerId": 2,
+    "name": "Routine 4",
+    "startDate": "2026-08-20",
+    "endDate": "2026-09-17",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 72
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 79
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 74
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "userId": 28,
+    "trainerId": 2,
+    "name": "Routine 5",
+    "startDate": "2026-09-11",
+    "endDate": "2026-10-09",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 48
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 18
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 43
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "userId": 28,
+    "trainerId": 2,
+    "name": "Routine 6",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-29",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 35
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 19
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 66
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "userId": 28,
+    "trainerId": 2,
+    "name": "Routine 7",
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-23",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 68
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 50
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 70
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "userId": 29,
+    "trainerId": 12,
+    "name": "Routine 1",
+    "startDate": "2026-06-14",
+    "endDate": "2026-07-12",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 85
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 24
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 83
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "userId": 29,
+    "trainerId": 12,
+    "name": "Routine 2",
+    "startDate": "2026-07-08",
+    "endDate": "2026-08-05",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 27
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 71
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 25
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "userId": 29,
+    "trainerId": 12,
+    "name": "Routine 3",
+    "startDate": "2026-07-26",
+    "endDate": "2026-08-23",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 51
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 73
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 67
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "userId": 29,
+    "trainerId": 12,
+    "name": "Routine 4",
+    "startDate": "2026-08-21",
+    "endDate": "2026-09-18",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 71
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 69
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 38
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "userId": 29,
+    "trainerId": 12,
+    "name": "Routine 5",
+    "startDate": "2026-09-13",
+    "endDate": "2026-10-11",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 80
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 24
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 67
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "userId": 29,
+    "trainerId": 12,
+    "name": "Routine 6",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-31",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 15
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 45
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 30
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "userId": 30,
+    "trainerId": 23,
+    "name": "Routine 1",
+    "startDate": "2026-06-11",
+    "endDate": "2026-07-09",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 35
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 21
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 75
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "userId": 30,
+    "trainerId": 23,
+    "name": "Routine 2",
+    "startDate": "2026-07-09",
+    "endDate": "2026-08-06",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 46
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 51
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 60
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "userId": 30,
+    "trainerId": 23,
+    "name": "Routine 3",
+    "startDate": "2026-07-30",
+    "endDate": "2026-08-27",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 13
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 91
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 57
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "userId": 30,
+    "trainerId": 23,
+    "name": "Routine 4",
+    "startDate": "2026-08-22",
+    "endDate": "2026-09-19",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 33
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 53
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 55
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "userId": 30,
+    "trainerId": 23,
+    "name": "Routine 5",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-06",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 56
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 60
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 49
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "userId": 30,
+    "trainerId": 23,
+    "name": "Routine 6",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-30",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 38
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 90
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 18
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "userId": 31,
+    "trainerId": 12,
+    "name": "Routine 1",
+    "startDate": "2026-06-11",
+    "endDate": "2026-07-09",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 32
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 36
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 78
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "userId": 31,
+    "trainerId": 12,
+    "name": "Routine 2",
+    "startDate": "2026-07-05",
+    "endDate": "2026-08-02",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 53
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 14
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 76
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "userId": 31,
+    "trainerId": 12,
+    "name": "Routine 3",
+    "startDate": "2026-07-30",
+    "endDate": "2026-08-27",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 10
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 10
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 24
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "userId": 31,
+    "trainerId": 12,
+    "name": "Routine 4",
+    "startDate": "2026-08-18",
+    "endDate": "2026-09-15",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 39
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 81
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 46
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "userId": 31,
+    "trainerId": 12,
+    "name": "Routine 5",
+    "startDate": "2026-09-10",
+    "endDate": "2026-10-08",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 86
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 56
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 87
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "userId": 31,
+    "trainerId": 12,
+    "name": "Routine 6",
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-27",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 15
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 62
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 98
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "userId": 32,
+    "trainerId": 14,
+    "name": "Routine 1",
+    "startDate": "2026-06-14",
+    "endDate": "2026-07-12",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 56
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 75
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 73
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "userId": 32,
+    "trainerId": 14,
+    "name": "Routine 2",
+    "startDate": "2026-07-05",
+    "endDate": "2026-08-02",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 97
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 37
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 61
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "userId": 32,
+    "trainerId": 14,
+    "name": "Routine 3",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-28",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 100
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 70
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 68
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "userId": 32,
+    "trainerId": 14,
+    "name": "Routine 4",
+    "startDate": "2026-08-22",
+    "endDate": "2026-09-19",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 82
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 59
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 69
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "userId": 32,
+    "trainerId": 14,
+    "name": "Routine 5",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-10",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 30
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 38
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 11
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "userId": 32,
+    "trainerId": 14,
+    "name": "Routine 6",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-31",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 72
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 21
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 31
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "userId": 32,
+    "trainerId": 14,
+    "name": "Routine 7",
+    "startDate": "2026-10-25",
+    "endDate": "2026-11-22",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 92
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 61
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 94
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "userId": 33,
+    "trainerId": 43,
+    "name": "Routine 1",
+    "startDate": "2026-06-14",
+    "endDate": "2026-07-12",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 77
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 79
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 76
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "userId": 33,
+    "trainerId": 43,
+    "name": "Routine 2",
+    "startDate": "2026-07-08",
+    "endDate": "2026-08-05",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 67
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 87
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 21
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "userId": 33,
+    "trainerId": 43,
+    "name": "Routine 3",
+    "startDate": "2026-07-28",
+    "endDate": "2026-08-25",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 25
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 58
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 48
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "userId": 33,
+    "trainerId": 43,
+    "name": "Routine 4",
+    "startDate": "2026-08-20",
+    "endDate": "2026-09-17",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 73
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 84
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 69
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "userId": 33,
+    "trainerId": 43,
+    "name": "Routine 5",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-06",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 34
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 34
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 100
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "userId": 34,
+    "trainerId": 14,
+    "name": "Routine 1",
+    "startDate": "2026-06-14",
+    "endDate": "2026-07-12",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 41
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 44
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 45
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "userId": 34,
+    "trainerId": 14,
+    "name": "Routine 2",
+    "startDate": "2026-07-09",
+    "endDate": "2026-08-06",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 37
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 68
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 64
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "userId": 34,
+    "trainerId": 14,
+    "name": "Routine 3",
+    "startDate": "2026-07-26",
+    "endDate": "2026-08-23",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 42
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 81
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 74
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "userId": 34,
+    "trainerId": 14,
+    "name": "Routine 4",
+    "startDate": "2026-08-16",
+    "endDate": "2026-09-13",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 33
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 49
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 83
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "userId": 34,
+    "trainerId": 14,
+    "name": "Routine 5",
+    "startDate": "2026-09-13",
+    "endDate": "2026-10-11",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 95
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 12
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 100
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "userId": 34,
+    "trainerId": 14,
+    "name": "Routine 6",
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-27",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 92
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 68
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 71
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "userId": 34,
+    "trainerId": 14,
+    "name": "Routine 7",
+    "startDate": "2026-10-25",
+    "endDate": "2026-11-22",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 57
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 96
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 24
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "userId": 35,
+    "trainerId": 37,
+    "name": "Routine 1",
+    "startDate": "2026-06-15",
+    "endDate": "2026-07-13",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 16
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 17
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 59
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "userId": 35,
+    "trainerId": 37,
+    "name": "Routine 2",
+    "startDate": "2026-07-06",
+    "endDate": "2026-08-03",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 63
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 60
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 71
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "userId": 35,
+    "trainerId": 37,
+    "name": "Routine 3",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-28",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 19
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 79
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 82
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "userId": 35,
+    "trainerId": 37,
+    "name": "Routine 4",
+    "startDate": "2026-08-18",
+    "endDate": "2026-09-15",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 70
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 47
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 30
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "userId": 35,
+    "trainerId": 37,
+    "name": "Routine 5",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-10",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 11
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 67
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 49
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "userId": 35,
+    "trainerId": 37,
+    "name": "Routine 6",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-28",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 87
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 14
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 86
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "userId": 36,
+    "trainerId": 7,
+    "name": "Routine 1",
+    "startDate": "2026-06-11",
+    "endDate": "2026-07-09",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 31
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 64
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 65
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "userId": 36,
+    "trainerId": 7,
+    "name": "Routine 2",
+    "startDate": "2026-07-08",
+    "endDate": "2026-08-05",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 98
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 47
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 77
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "userId": 36,
+    "trainerId": 7,
+    "name": "Routine 3",
+    "startDate": "2026-07-25",
+    "endDate": "2026-08-22",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 71
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 42
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 72
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "userId": 36,
+    "trainerId": 7,
+    "name": "Routine 4",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 59
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 46
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 24
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "userId": 36,
+    "trainerId": 7,
+    "name": "Routine 5",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-06",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 80
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 48
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 83
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "userId": 36,
+    "trainerId": 7,
+    "name": "Routine 6",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-28",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 98
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 27
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 13
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "userId": 37,
+    "trainerId": 18,
+    "name": "Routine 1",
+    "startDate": "2026-06-15",
+    "endDate": "2026-07-13",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 66
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 44
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 36
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "userId": 37,
+    "trainerId": 18,
+    "name": "Routine 2",
+    "startDate": "2026-07-05",
+    "endDate": "2026-08-02",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 61
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 86
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 59
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "userId": 37,
+    "trainerId": 18,
+    "name": "Routine 3",
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-24",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 19
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 74
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 40
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "userId": 37,
+    "trainerId": 18,
+    "name": "Routine 4",
+    "startDate": "2026-08-20",
+    "endDate": "2026-09-17",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 56
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 14
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 33
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "userId": 37,
+    "trainerId": 18,
+    "name": "Routine 5",
+    "startDate": "2026-09-07",
+    "endDate": "2026-10-05",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 57
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 74
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 79
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "userId": 37,
+    "trainerId": 18,
+    "name": "Routine 6",
+    "startDate": "2026-10-05",
+    "endDate": "2026-11-02",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 22
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 35
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 88
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "userId": 37,
+    "trainerId": 18,
+    "name": "Routine 7",
+    "startDate": "2026-10-22",
+    "endDate": "2026-11-19",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 73
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 26
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 64
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "userId": 38,
+    "trainerId": 1,
+    "name": "Routine 1",
+    "startDate": "2026-06-11",
+    "endDate": "2026-07-09",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 98
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 41
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 61
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "userId": 38,
+    "trainerId": 1,
+    "name": "Routine 2",
+    "startDate": "2026-07-09",
+    "endDate": "2026-08-06",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 66
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 14
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 20
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "userId": 38,
+    "trainerId": 1,
+    "name": "Routine 3",
+    "startDate": "2026-07-30",
+    "endDate": "2026-08-27",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 24
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 92
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 82
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "userId": 38,
+    "trainerId": 1,
+    "name": "Routine 4",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 52
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 96
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 21
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "userId": 38,
+    "trainerId": 1,
+    "name": "Routine 5",
+    "startDate": "2026-09-11",
+    "endDate": "2026-10-09",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 26
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 99
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 83
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "userId": 39,
+    "trainerId": 16,
+    "name": "Routine 1",
+    "startDate": "2026-06-16",
+    "endDate": "2026-07-14",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 94
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 36
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 92
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "userId": 39,
+    "trainerId": 16,
+    "name": "Routine 2",
+    "startDate": "2026-07-05",
+    "endDate": "2026-08-02",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 58
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 36
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 78
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "userId": 39,
+    "trainerId": 16,
+    "name": "Routine 3",
+    "startDate": "2026-07-29",
+    "endDate": "2026-08-26",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 47
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 33
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 30
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "userId": 39,
+    "trainerId": 16,
+    "name": "Routine 4",
+    "startDate": "2026-08-22",
+    "endDate": "2026-09-19",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 70
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 29
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 80
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "userId": 39,
+    "trainerId": 16,
+    "name": "Routine 5",
+    "startDate": "2026-09-07",
+    "endDate": "2026-10-05",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 83
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 25
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 34
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "userId": 40,
+    "trainerId": 39,
+    "name": "Routine 1",
+    "startDate": "2026-06-13",
+    "endDate": "2026-07-11",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 20
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 75
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 80
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "userId": 40,
+    "trainerId": 39,
+    "name": "Routine 2",
+    "startDate": "2026-07-04",
+    "endDate": "2026-08-01",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 62
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 23
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 19
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "userId": 40,
+    "trainerId": 39,
+    "name": "Routine 3",
+    "startDate": "2026-07-25",
+    "endDate": "2026-08-22",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 60
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 46
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 80
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "userId": 40,
+    "trainerId": 39,
+    "name": "Routine 4",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 72
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 34
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 89
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "userId": 40,
+    "trainerId": 39,
+    "name": "Routine 5",
+    "startDate": "2026-09-09",
+    "endDate": "2026-10-07",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 91
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 89
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 85
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "userId": 41,
+    "trainerId": 39,
+    "name": "Routine 1",
+    "startDate": "2026-06-14",
+    "endDate": "2026-07-12",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 43
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 93
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 47
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "userId": 41,
+    "trainerId": 39,
+    "name": "Routine 2",
+    "startDate": "2026-07-03",
+    "endDate": "2026-07-31",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 18
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 54
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 53
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "userId": 41,
+    "trainerId": 39,
+    "name": "Routine 3",
+    "startDate": "2026-07-26",
+    "endDate": "2026-08-23",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 59
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 17
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 92
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "userId": 41,
+    "trainerId": 39,
+    "name": "Routine 4",
+    "startDate": "2026-08-20",
+    "endDate": "2026-09-17",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 35
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 68
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 22
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "userId": 41,
+    "trainerId": 39,
+    "name": "Routine 5",
+    "startDate": "2026-09-11",
+    "endDate": "2026-10-09",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 12
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 39
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 58
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "userId": 42,
+    "trainerId": 17,
+    "name": "Routine 1",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-10",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 80
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 38
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 11
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "userId": 42,
+    "trainerId": 17,
+    "name": "Routine 2",
+    "startDate": "2026-07-03",
+    "endDate": "2026-07-31",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 98
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 87
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 22
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "userId": 42,
+    "trainerId": 17,
+    "name": "Routine 3",
+    "startDate": "2026-07-28",
+    "endDate": "2026-08-25",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 26
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 84
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 82
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "userId": 42,
+    "trainerId": 17,
+    "name": "Routine 4",
+    "startDate": "2026-08-16",
+    "endDate": "2026-09-13",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 41
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 34
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 83
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "userId": 42,
+    "trainerId": 17,
+    "name": "Routine 5",
+    "startDate": "2026-09-13",
+    "endDate": "2026-10-11",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 64
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 14
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 24
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "userId": 43,
+    "trainerId": 45,
+    "name": "Routine 1",
+    "startDate": "2026-06-14",
+    "endDate": "2026-07-12",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 58
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 37
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 87
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "userId": 43,
+    "trainerId": 45,
+    "name": "Routine 2",
+    "startDate": "2026-07-04",
+    "endDate": "2026-08-01",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 95
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 83
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 90
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "userId": 43,
+    "trainerId": 45,
+    "name": "Routine 3",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-28",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 41
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 15
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 26
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "userId": 43,
+    "trainerId": 45,
+    "name": "Routine 4",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 97
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 17
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 41
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "userId": 43,
+    "trainerId": 45,
+    "name": "Routine 5",
+    "startDate": "2026-09-13",
+    "endDate": "2026-10-11",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 38
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 89
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 15
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "userId": 43,
+    "trainerId": 45,
+    "name": "Routine 6",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-30",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 45
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 25
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 75
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "userId": 43,
+    "trainerId": 45,
+    "name": "Routine 7",
+    "startDate": "2026-10-27",
+    "endDate": "2026-11-24",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 14
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 14
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 22
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "userId": 44,
+    "trainerId": 21,
+    "name": "Routine 1",
+    "startDate": "2026-06-16",
+    "endDate": "2026-07-14",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 90
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 17
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 40
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "userId": 44,
+    "trainerId": 21,
+    "name": "Routine 2",
+    "startDate": "2026-07-07",
+    "endDate": "2026-08-04",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 74
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 26
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 16
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "userId": 44,
+    "trainerId": 21,
+    "name": "Routine 3",
+    "startDate": "2026-07-29",
+    "endDate": "2026-08-26",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 68
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 10
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 62
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "userId": 44,
+    "trainerId": 21,
+    "name": "Routine 4",
+    "startDate": "2026-08-20",
+    "endDate": "2026-09-17",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 40
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 83
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 93
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "userId": 44,
+    "trainerId": 21,
+    "name": "Routine 5",
+    "startDate": "2026-09-10",
+    "endDate": "2026-10-08",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 80
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 70
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 52
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "userId": 45,
+    "trainerId": 11,
+    "name": "Routine 1",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-10",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 56
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 97
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 85
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "userId": 45,
+    "trainerId": 11,
+    "name": "Routine 2",
+    "startDate": "2026-07-06",
+    "endDate": "2026-08-03",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 99
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 96
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 23
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "userId": 45,
+    "trainerId": 11,
+    "name": "Routine 3",
+    "startDate": "2026-07-28",
+    "endDate": "2026-08-25",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 43
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 89
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 75
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "userId": 45,
+    "trainerId": 11,
+    "name": "Routine 4",
+    "startDate": "2026-08-20",
+    "endDate": "2026-09-17",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 96
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 77
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 87
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "userId": 45,
+    "trainerId": 11,
+    "name": "Routine 5",
+    "startDate": "2026-09-11",
+    "endDate": "2026-10-09",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 89
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 16
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 22
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "userId": 45,
+    "trainerId": 11,
+    "name": "Routine 6",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-28",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 68
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 28
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 30
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "userId": 45,
+    "trainerId": 11,
+    "name": "Routine 7",
+    "startDate": "2026-10-27",
+    "endDate": "2026-11-24",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 39
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 99
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 84
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "userId": 46,
+    "trainerId": 28,
+    "name": "Routine 1",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-10",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 42
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 29
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 51
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "userId": 46,
+    "trainerId": 28,
+    "name": "Routine 2",
+    "startDate": "2026-07-07",
+    "endDate": "2026-08-04",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 91
+      },
+      {
+        "name": "Lunge",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 38
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 59
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "userId": 46,
+    "trainerId": 28,
+    "name": "Routine 3",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-28",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 83
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 48
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 50
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "userId": 46,
+    "trainerId": 28,
+    "name": "Routine 4",
+    "startDate": "2026-08-16",
+    "endDate": "2026-09-13",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 40
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 10,
+        "weightKg": 82
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 79
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "userId": 46,
+    "trainerId": 28,
+    "name": "Routine 5",
+    "startDate": "2026-09-10",
+    "endDate": "2026-10-08",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 100
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 16
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 25
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "userId": 46,
+    "trainerId": 28,
+    "name": "Routine 6",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-30",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 49
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 28
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 25
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "userId": 46,
+    "trainerId": 28,
+    "name": "Routine 7",
+    "startDate": "2026-10-22",
+    "endDate": "2026-11-19",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 19
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 21
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 11
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "userId": 47,
+    "trainerId": 12,
+    "name": "Routine 1",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-10",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 15
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 25
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 86
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "userId": 47,
+    "trainerId": 12,
+    "name": "Routine 2",
+    "startDate": "2026-07-08",
+    "endDate": "2026-08-05",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 21
+      },
+      {
+        "name": "Barbell row",
+        "sets": 3,
+        "reps": 14,
+        "weightKg": 11
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 51
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "userId": 47,
+    "trainerId": 12,
+    "name": "Routine 3",
+    "startDate": "2026-07-28",
+    "endDate": "2026-08-25",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 59
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 20
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 44
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "userId": 47,
+    "trainerId": 12,
+    "name": "Routine 4",
+    "startDate": "2026-08-19",
+    "endDate": "2026-09-16",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 76
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 41
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 44
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "userId": 47,
+    "trainerId": 12,
+    "name": "Routine 5",
+    "startDate": "2026-09-11",
+    "endDate": "2026-10-09",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 48
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 20
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 91
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "userId": 47,
+    "trainerId": 12,
+    "name": "Routine 6",
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-27",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 52
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 29
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 31
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "userId": 48,
+    "trainerId": 10,
+    "name": "Routine 1",
+    "startDate": "2026-06-17",
+    "endDate": "2026-07-15",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 90
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 25
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 23
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "userId": 48,
+    "trainerId": 10,
+    "name": "Routine 2",
+    "startDate": "2026-07-04",
+    "endDate": "2026-08-01",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 13,
+        "weightKg": 91
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 96
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 14,
+        "weightKg": 58
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "userId": 48,
+    "trainerId": 10,
+    "name": "Routine 3",
+    "startDate": "2026-07-25",
+    "endDate": "2026-08-22",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 24
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 80
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 91
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "userId": 48,
+    "trainerId": 10,
+    "name": "Routine 4",
+    "startDate": "2026-08-19",
+    "endDate": "2026-09-16",
+    "exercises": [
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 6,
+        "weightKg": 39
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 45
+      },
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 88
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "userId": 48,
+    "trainerId": 10,
+    "name": "Routine 5",
+    "startDate": "2026-09-13",
+    "endDate": "2026-10-11",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 6,
+        "weightKg": 12
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 45
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 86
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "userId": 48,
+    "trainerId": 10,
+    "name": "Routine 6",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-29",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 12,
+        "weightKg": 20
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 73
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 76
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "userId": 48,
+    "trainerId": 10,
+    "name": "Routine 7",
+    "startDate": "2026-10-27",
+    "endDate": "2026-11-24",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 11,
+        "weightKg": 35
+      },
+      {
+        "name": "Bench press",
+        "sets": 5,
+        "reps": 7,
+        "weightKg": 31
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 40
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "userId": 49,
+    "trainerId": 41,
+    "name": "Routine 1",
+    "startDate": "2026-06-14",
+    "endDate": "2026-07-12",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 12
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 93
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 75
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "userId": 49,
+    "trainerId": 41,
+    "name": "Routine 2",
+    "startDate": "2026-07-06",
+    "endDate": "2026-08-03",
+    "exercises": [
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 56
+      },
+      {
+        "name": "Barbell row",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 41
+      },
+      {
+        "name": "Plank",
+        "sets": 5,
+        "reps": 15,
+        "weightKg": 14
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "userId": 49,
+    "trainerId": 41,
+    "name": "Routine 3",
+    "startDate": "2026-07-30",
+    "endDate": "2026-08-27",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 12,
+        "weightKg": 89
+      },
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 9,
+        "weightKg": 44
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 14
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "userId": 49,
+    "trainerId": 41,
+    "name": "Routine 4",
+    "startDate": "2026-08-21",
+    "endDate": "2026-09-18",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 70
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 10,
+        "weightKg": 39
+      },
+      {
+        "name": "Squat",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 88
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "userId": 49,
+    "trainerId": 41,
+    "name": "Routine 5",
+    "startDate": "2026-09-07",
+    "endDate": "2026-10-05",
+    "exercises": [
+      {
+        "name": "Lunge",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 63
+      },
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 40
+      },
+      {
+        "name": "Barbell row",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 43
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "userId": 49,
+    "trainerId": 41,
+    "name": "Routine 6",
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-01",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 51
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 6,
+        "weightKg": 78
+      },
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 98
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "userId": 50,
+    "trainerId": 41,
+    "name": "Routine 1",
+    "startDate": "2026-06-17",
+    "endDate": "2026-07-15",
+    "exercises": [
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 28
+      },
+      {
+        "name": "Bench press",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 25
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 9,
+        "weightKg": 19
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "userId": 50,
+    "trainerId": 41,
+    "name": "Routine 2",
+    "startDate": "2026-07-06",
+    "endDate": "2026-08-03",
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 11,
+        "weightKg": 72
+      },
+      {
+        "name": "Lunge",
+        "sets": 4,
+        "reps": 13,
+        "weightKg": 23
+      },
+      {
+        "name": "Shoulder press",
+        "sets": 5,
+        "reps": 12,
+        "weightKg": 94
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "userId": 50,
+    "trainerId": 41,
+    "name": "Routine 3",
+    "startDate": "2026-07-28",
+    "endDate": "2026-08-25",
+    "exercises": [
+      {
+        "name": "Pull-up",
+        "sets": 5,
+        "reps": 14,
+        "weightKg": 54
+      },
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": 15,
+        "weightKg": 36
+      },
+      {
+        "name": "Deadlift",
+        "sets": 4,
+        "reps": 8,
+        "weightKg": 37
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "userId": 50,
+    "trainerId": 41,
+    "name": "Routine 4",
+    "startDate": "2026-08-22",
+    "endDate": "2026-09-19",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 4,
+        "reps": 7,
+        "weightKg": 77
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 9,
+        "weightKg": 55
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": 8,
+        "weightKg": 78
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "userId": 50,
+    "trainerId": 41,
+    "name": "Routine 5",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-06",
+    "exercises": [
+      {
+        "name": "Shoulder press",
+        "sets": 3,
+        "reps": 8,
+        "weightKg": 19
+      },
+      {
+        "name": "Pull-up",
+        "sets": 3,
+        "reps": 13,
+        "weightKg": 96
+      },
+      {
+        "name": "Bench press",
+        "sets": 4,
+        "reps": 15,
+        "weightKg": 32
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "userId": 50,
+    "trainerId": 41,
+    "name": "Routine 6",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-30",
+    "exercises": [
+      {
+        "name": "Deadlift",
+        "sets": 3,
+        "reps": 7,
+        "weightKg": 72
+      },
+      {
+        "name": "Pull-up",
+        "sets": 4,
+        "reps": 10,
+        "weightKg": 42
+      },
+      {
+        "name": "Squat",
+        "sets": 4,
+        "reps": 11,
+        "weightKg": 23
+      }
+    ]
+  }
+]
