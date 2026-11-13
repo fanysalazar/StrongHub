@@ -34,4 +34,12 @@ manage routines and receive alerts about expiring routines and upcoming measurem
 
 ## How to run
 
-_To be completed at the end of the project._
+Requirements: Windows and the .NET 10 SDK.
+
+```powershell
+dotnet build
+dotnet test
+dotnet run --project src\StrongHub.Views
+```
+
+Test users: `user1` to `user50` (members) and `trainer1` to `trainer45` (trainers).
