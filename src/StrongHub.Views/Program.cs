@@ -1,4 +1,8 @@
-﻿namespace StrongHub.Views;
+﻿using StrongHub.Controllers;
+using StrongHub.Data;
+using StrongHub.Models;
+
+namespace StrongHub.Views;
 
 internal static class Program
 {
@@ -6,6 +10,18 @@ internal static class Program
     private static void Main()
     {
         ApplicationConfiguration.Initialize();
-        MessageBox.Show("StrongHub is starting...", "StrongHub");
+
+        try
+        {
+            string dataFolder = Path.Combine(AppContext.BaseDirectory, "data");
+            var users = new JsonRepository<BasicUser>(Path.Combine(dataFolder, "users.json"));
+            var trainers = new JsonRepository<Trainer>(Path.Combine(dataFolder, "trainers.json"));
+
+            Application.Run(new RegisterForm(new RegisterController(users, trainers)));
+        }
+        catch (DataAccessException ex)
+        {
+            MessageBox.Show(ex.Message, "StrongHub - Data error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
     }
 }
