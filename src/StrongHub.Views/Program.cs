@@ -26,12 +26,14 @@ internal static class Program
         string dataFolder = Path.Combine(AppContext.BaseDirectory, "data");
         var users = new JsonRepository<BasicUser>(Path.Combine(dataFolder, "users.json"));
         var trainers = new JsonRepository<Trainer>(Path.Combine(dataFolder, "trainers.json"));
+        var gymClasses = new JsonRepository<GymClass>(Path.Combine(dataFolder, "gymclasses.json"));
 
         var session = new SessionContext();
         var authController = new AuthController(users, trainers, session);
         var registerController = new RegisterController(users, trainers);
         var menuController = new MainMenuController(session);
         var trainerController = new TrainerController(trainers, users, session);
+        var catalogController = new ClassCatalogController(gymClasses);
 
         while (true)
         {
@@ -41,7 +43,7 @@ internal static class Program
                 return;
             }
 
-            using var menuForm = new MainMenuForm(menuController, trainerController);
+            using var menuForm = new MainMenuForm(menuController, trainerController, catalogController);
             if (menuForm.ShowDialog() != DialogResult.Retry)
             {
                 return;

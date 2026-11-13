@@ -7,11 +7,16 @@ public class MainMenuForm : Form
 {
     private readonly MainMenuController _controller;
     private readonly TrainerController _trainerController;
+    private readonly ClassCatalogController _catalogController;
 
-    public MainMenuForm(MainMenuController controller, TrainerController trainerController)
+    public MainMenuForm(
+        MainMenuController controller,
+        TrainerController trainerController,
+        ClassCatalogController catalogController)
     {
         _controller = controller;
         _trainerController = trainerController;
+        _catalogController = catalogController;
         BuildLayout();
     }
 
@@ -49,13 +54,25 @@ public class MainMenuForm : Form
 
     private void OpenOption(string option)
     {
-        if (option == "Trainers")
+        switch (option)
         {
-            using var trainersForm = new TrainersForm(_trainerController);
-            trainersForm.ShowDialog(this);
-            return;
-        }
+            case "Trainers":
+                using (var trainersForm = new TrainersForm(_trainerController))
+                {
+                    trainersForm.ShowDialog(this);
+                }
 
-        MessageBox.Show($"'{option}' will be available in a later sprint.", "StrongHub");
+                break;
+            case "Gym classes":
+                using (var classesForm = new GymClassesForm(_catalogController))
+                {
+                    classesForm.ShowDialog(this);
+                }
+
+                break;
+            default:
+                MessageBox.Show($"'{option}' will be available in a later sprint.", "StrongHub");
+                break;
+        }
     }
 }

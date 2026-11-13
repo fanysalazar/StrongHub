@@ -1,0 +1,37 @@
+﻿[
+  {
+    "kind": "yoga",
+    "id": 1,
+    "name": "Yoga",
+    "description": "Guided sequences of poses and controlled breathing to improve mobility, posture and stress control. Suitable for every fitness level.",
+    "durationMinutes": 60
+  },
+  {
+    "kind": "openGym",
+    "id": 2,
+    "name": "Open gym",
+    "description": "Free access to the weight and cardio areas to follow your own routine. Staff can answer questions, but there is no instructor-led session.",
+    "durationMinutes": 120
+  },
+  {
+    "kind": "crossfit",
+    "id": 3,
+    "name": "Crossfit",
+    "description": "Timed circuits that mix lifting, bodyweight movements and short cardio bursts. Every exercise can be scaled to the participant.",
+    "durationMinutes": 45
+  },
+  {
+    "kind": "zumba",
+    "id": 4,
+    "name": "Zumba",
+    "description": "Dance workout set to Latin rhythms that raises the heart rate through simple, repeatable choreographies.",
+    "durationMinutes": 50
+  },
+  {
+    "kind": "spinning",
+    "id": 5,
+    "name": "Spinning",
+    "description": "Indoor cycling session led by an instructor, alternating climbs, sprints and recovery intervals on stationary bikes.",
+    "durationMinutes": 45
+  }
+]
