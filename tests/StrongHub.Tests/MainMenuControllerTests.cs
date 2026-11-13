@@ -15,6 +15,7 @@ public class MainMenuControllerTests
         IReadOnlyList<string> options = new MainMenuController(session).GetOptions();
 
         Assert.Contains("Statistics", options);
+        Assert.Contains("Trainers", options);
         Assert.DoesNotContain("Manage routines", options);
     }
 
@@ -27,6 +28,7 @@ public class MainMenuControllerTests
         IReadOnlyList<string> options = new MainMenuController(session).GetOptions();
 
         Assert.Contains("Manage routines", options);
+        Assert.Contains("Trainers", options);
         Assert.DoesNotContain("Statistics", options);
     }
 }

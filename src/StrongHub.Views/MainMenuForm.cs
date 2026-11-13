@@ -6,10 +6,12 @@ namespace StrongHub.Views;
 public class MainMenuForm : Form
 {
     private readonly MainMenuController _controller;
+    private readonly TrainerController _trainerController;
 
-    public MainMenuForm(MainMenuController controller)
+    public MainMenuForm(MainMenuController controller, TrainerController trainerController)
     {
         _controller = controller;
+        _trainerController = trainerController;
         BuildLayout();
     }
 
@@ -35,8 +37,7 @@ public class MainMenuForm : Form
         foreach (string option in options)
         {
             var button = new Button { Text = option, Location = new Point(20, top), Size = new Size(320, 36) };
-            button.Click += (_, _) =>
-                MessageBox.Show($"'{option}' will be available in a later sprint.", "StrongHub");
+            button.Click += (_, _) => OpenOption(option);
             Controls.Add(button);
             top += 45;
         }
@@ -44,5 +45,17 @@ public class MainMenuForm : Form
         var logoutButton = new Button { Text = "Log out", Location = new Point(20, top + 10), Size = new Size(320, 36) };
         logoutButton.Click += (_, _) => DialogResult = DialogResult.Retry;
         Controls.Add(logoutButton);
+    }
+
+    private void OpenOption(string option)
+    {
+        if (option == "Trainers")
+        {
+            using var trainersForm = new TrainersForm(_trainerController);
+            trainersForm.ShowDialog(this);
+            return;
+        }
+
+        MessageBox.Show($"'{option}' will be available in a later sprint.", "StrongHub");
     }
 }

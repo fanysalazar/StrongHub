@@ -4,7 +4,7 @@
 public class MainMenuController
 {
     private static readonly string[] BasicUserOptions =
-        { "My routines", "Gym classes", "Register visit", "My badges", "Timeline", "Statistics" };
+        { "My routines", "Gym classes", "Trainers", "Register visit", "My badges", "Timeline", "Statistics" };
 
     private static readonly string[] TrainerOptions =
         { "Manage routines", "Trainers", "Timeline" };

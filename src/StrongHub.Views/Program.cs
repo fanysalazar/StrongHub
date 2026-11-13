@@ -31,6 +31,7 @@ internal static class Program
         var authController = new AuthController(users, trainers, session);
         var registerController = new RegisterController(users, trainers);
         var menuController = new MainMenuController(session);
+        var trainerController = new TrainerController(trainers, users, session);
 
         while (true)
         {
@@ -40,7 +41,7 @@ internal static class Program
                 return;
             }
 
-            using var menuForm = new MainMenuForm(menuController);
+            using var menuForm = new MainMenuForm(menuController, trainerController);
             if (menuForm.ShowDialog() != DialogResult.Retry)
             {
                 return;
