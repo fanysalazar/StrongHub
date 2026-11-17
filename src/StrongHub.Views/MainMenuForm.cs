@@ -74,9 +74,9 @@ public class MainMenuForm : Form
 
                 break;
             case "Manage routines":
-                using (var routineForm = new RoutineForm(_routineController))
+                using (var routineListForm = new RoutineListForm(_routineController))
                 {
-                    routineForm.ShowDialog(this);
+                    routineListForm.ShowDialog(this);
                 }
 
                 break;

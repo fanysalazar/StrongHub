@@ -25,6 +25,21 @@ public class RoutineControllerTests
     private static List<Exercise> OneExercise() =>
         new() { new Exercise { Name = "Squat", Sets = 4, Reps = 8, WeightKg = 60 } };
 
+    private Routine SeedRoutine(int memberId = 1, int trainerId = 7)
+    {
+        var routine = new Routine
+        {
+            UserId = memberId,
+            TrainerId = trainerId,
+            Name = "Seed block",
+            StartDate = Start,
+            EndDate = End,
+            Exercises = OneExercise()
+        };
+        _routines.Add(routine);
+        return routine;
+    }
+
     [Fact]
     public void Create_ValidData_SavesRoutineAndRaisesEvent()
     {
@@ -117,5 +132,116 @@ public class RoutineControllerTests
 
         Assert.Equal(1, _controller.CountRoutinesOf(1));
         Assert.Equal(0, _controller.CountRoutinesOf(2));
+    }
+
+    [Fact]
+    public void Update_ValidData_ChangesRoutineAndKeepsMember()
+    {
+        Routine seeded = SeedRoutine();
+        var newExercises = new List<Exercise> { new() { Name = "Lunge", Sets = 3, Reps = 12, WeightKg = 20 } };
+
+        Routine updated = _controller.Update(seeded.Id, "  New name ", Start.AddDays(1), End, newExercises);
+
+        Assert.Equal("New name", updated.Name);
+        Assert.Equal(Start.AddDays(1), updated.StartDate);
+        Assert.Equal("Lunge", _routines.GetById(seeded.Id)!.Exercises[0].Name);
+        Assert.Equal(1, updated.UserId);
+    }
+
+    [Fact]
+    public void Update_UnknownRoutine_ThrowsRoutineNotFoundException()
+    {
+        Assert.Throws<RoutineNotFoundException>(() =>
+            _controller.Update(99, "New name", Start, End, OneExercise()));
+    }
+
+    [Fact]
+    public void Update_EndBeforeStart_ThrowsAndKeepsOriginalData()
+    {
+        Routine seeded = SeedRoutine();
+
+        Assert.Throws<ValidationException>(() =>
+            _controller.Update(seeded.Id, "Changed", End, Start, OneExercise()));
+
+        Assert.Equal("Seed block", _routines.GetById(seeded.Id)!.Name);
+    }
+
+    [Fact]
+    public void Update_SignedInAsMember_ThrowsValidationException()
+    {
+        Routine seeded = SeedRoutine();
+        _session.SignIn(_users.GetAll()[0]);
+
+        Assert.Throws<ValidationException>(() =>
+            _controller.Update(seeded.Id, "Changed", Start, End, OneExercise()));
+    }
+
+    [Fact]
+    public void Delete_ExistingRoutine_RemovesIt()
+    {
+        Routine seeded = SeedRoutine();
+
+        _controller.Delete(seeded.Id);
+
+        Assert.Empty(_routines.GetAll());
+    }
+
+    [Fact]
+    public void Delete_UnknownRoutine_ThrowsRoutineNotFoundException()
+    {
+        Assert.Throws<RoutineNotFoundException>(() => _controller.Delete(99));
+    }
+
+    [Fact]
+    public void Delete_SignedInAsMember_ThrowsAndKeepsRoutine()
+    {
+        Routine seeded = SeedRoutine();
+        _session.SignIn(_users.GetAll()[0]);
+
+        Assert.Throws<ValidationException>(() => _controller.Delete(seeded.Id));
+        Assert.Single(_routines.GetAll());
+    }
+
+    [Fact]
+    public void GetRoutineRows_FilterByMember_ReturnsOnlyThatMember()
+    {
+        SeedRoutine(memberId: 1);
+        SeedRoutine(memberId: 2);
+
+        IReadOnlyList<RoutineRow> rows = _controller.GetRoutineRows(memberId: 2);
+
+        Assert.Single(rows);
+        Assert.Equal("Anselmo Rueda", rows[0].Member);
+    }
+
+    [Fact]
+    public void GetRoutineRows_OnlyMine_ReturnsRoutinesOfTheSignedInTrainer()
+    {
+        SeedRoutine(memberId: 1, trainerId: 7);
+        SeedRoutine(memberId: 2, trainerId: 3);
+
+        IReadOnlyList<RoutineRow> rows = _controller.GetRoutineRows(onlyMine: true);
+
+        Assert.Single(rows);
+        Assert.Equal("Zaira Beltran", rows[0].Member);
+    }
+
+    [Fact]
+    public void GetRoutineForEdit_ReturnsIndependentCopy()
+    {
+        Routine seeded = SeedRoutine();
+
+        Routine copy = _controller.GetRoutineForEdit(seeded.Id);
+        copy.Name = "Changed in the form";
+        copy.Exercises[0].Name = "Changed exercise";
+
+        Assert.Equal("Seed block", _routines.GetById(seeded.Id)!.Name);
+        Assert.Equal("Squat", _routines.GetById(seeded.Id)!.Exercises[0].Name);
+    }
+
+    [Fact]
+    public void GetRoutineForEdit_UnknownRoutine_ThrowsRoutineNotFoundException()
+    {
+        Assert.Throws<RoutineNotFoundException>(() => _controller.GetRoutineForEdit(99));
     }
 }
