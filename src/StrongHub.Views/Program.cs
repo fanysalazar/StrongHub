@@ -30,6 +30,8 @@ internal static class Program
         var routines = new RoutineRepository(Path.Combine(dataFolder, "routines.json"));
         var routineChanges = new JsonRepository<RoutineChange>(Path.Combine(dataFolder, "routinechanges.json"));
         var visits = new VisitRepository(Path.Combine(dataFolder, "visits.json"));
+        var measurements = new JsonRepository<Measurement>(Path.Combine(dataFolder, "measurements.json"));
+        var userBadges = new JsonRepository<UserBadge>(Path.Combine(dataFolder, "badges.json"));
 
         var session = new SessionContext();
         var authController = new AuthController(users, trainers, session);
@@ -41,8 +43,22 @@ internal static class Program
         var changesController = new RoutineChangesController(routineChanges, routines, session);
         var visitController = new VisitController(visits, gymClasses, session);
 
-        // The notification center (Sprint 3) will subscribe here to:
-        //   routineController.RoutineCreated and visitController.RestRecommended
+        var contextFactory = new BadgeContextFactory(measurements, visits);
+        var achievementEvaluator = new BadgeEvaluator(new IBadgeRule[]
+        {
+            new MuscleGoalRule(),
+            new BodyFatGoalRule(),
+            new VisitCountRule("regular-visitor", "Regular visitor", 6, 30),
+            new VisitCountRule("gym-devotee", "Gym devotee", 12, 30)
+        });
+        var badgeController = new BadgeController(userBadges, achievementEvaluator, contextFactory, session);
+
+        var app = new AppControllers(
+            menuController, trainerController, catalogController, routineController,
+            changesController, visitController, badgeController);
+
+        // The notification center (next historia) will subscribe here to:
+        //   routineController.RoutineCreated, visitController.RestRecommended, badgeController.BadgeEarned
 
         while (true)
         {
@@ -52,9 +68,7 @@ internal static class Program
                 return;
             }
 
-            using var menuForm = new MainMenuForm(
-                menuController, trainerController, catalogController,
-                routineController, changesController, visitController);
+            using var menuForm = new MainMenuForm(app);
             if (menuForm.ShowDialog() != DialogResult.Retry)
             {
                 return;

@@ -1,37 +1,19 @@
-﻿using StrongHub.Controllers;
-
-namespace StrongHub.Views;
+﻿namespace StrongHub.Views;
 
 /// <summary>Main menu; shows different options for members and trainers.</summary>
 public class MainMenuForm : Form
 {
-    private readonly MainMenuController _controller;
-    private readonly TrainerController _trainerController;
-    private readonly ClassCatalogController _catalogController;
-    private readonly RoutineController _routineController;
-    private readonly RoutineChangesController _changesController;
-    private readonly VisitController _visitController;
+    private readonly AppControllers _app;
 
-    public MainMenuForm(
-        MainMenuController controller,
-        TrainerController trainerController,
-        ClassCatalogController catalogController,
-        RoutineController routineController,
-        RoutineChangesController changesController,
-        VisitController visitController)
+    public MainMenuForm(AppControllers app)
     {
-        _controller = controller;
-        _trainerController = trainerController;
-        _catalogController = catalogController;
-        _routineController = routineController;
-        _changesController = changesController;
-        _visitController = visitController;
+        _app = app;
         BuildLayout();
     }
 
     private void BuildLayout()
     {
-        IReadOnlyList<string> options = _controller.GetOptions();
+        IReadOnlyList<string> options = _app.Menu.GetOptions();
 
         Text = "StrongHub - Main menu";
         StartPosition = FormStartPosition.CenterScreen;
@@ -41,7 +23,7 @@ public class MainMenuForm : Form
 
         Controls.Add(new Label
         {
-            Text = _controller.GetWelcomeMessage(),
+            Text = _app.Menu.GetWelcomeMessage(),
             Font = new Font("Segoe UI", 12, FontStyle.Bold),
             AutoSize = true,
             Location = new Point(20, 15)
@@ -61,44 +43,35 @@ public class MainMenuForm : Form
         Controls.Add(logoutButton);
     }
 
+    private void ShowDialogOf(Form form)
+    {
+        using (form)
+        {
+            form.ShowDialog(this);
+        }
+    }
+
     private void OpenOption(string option)
     {
         switch (option)
         {
             case "Trainers":
-                using (var trainersForm = new TrainersForm(_trainerController))
-                {
-                    trainersForm.ShowDialog(this);
-                }
-
+                ShowDialogOf(new TrainersForm(_app.Trainers));
                 break;
             case "Gym classes":
-                using (var classesForm = new GymClassesForm(_catalogController))
-                {
-                    classesForm.ShowDialog(this);
-                }
-
+                ShowDialogOf(new GymClassesForm(_app.Catalog));
                 break;
             case "Manage routines":
-                using (var routineListForm = new RoutineListForm(_routineController))
-                {
-                    routineListForm.ShowDialog(this);
-                }
-
+                ShowDialogOf(new RoutineListForm(_app.Routines));
                 break;
             case "Load increases":
-                using (var changesForm = new RoutineChangesForm(_changesController))
-                {
-                    changesForm.ShowDialog(this);
-                }
-
+                ShowDialogOf(new RoutineChangesForm(_app.RoutineChanges));
                 break;
             case "Register visit":
-                using (var visitForm = new VisitForm(_visitController))
-                {
-                    visitForm.ShowDialog(this);
-                }
-
+                ShowDialogOf(new VisitForm(_app.Visits));
+                break;
+            case "My badges":
+                ShowDialogOf(new BadgesForm(_app.Badges));
                 break;
             default:
                 MessageBox.Show($"'{option}' will be available in a later sprint.", "StrongHub");
