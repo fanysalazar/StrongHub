@@ -86,7 +86,7 @@ public class TrainersForm : Form
 
         try
         {
-            int trainerId = (int)_grid.SelectedRows[0].Cells["Id"].Value;
+            int trainerId = Convert.ToInt32(_grid.SelectedRows[0].Cells["Id"].Value);
             _controller.AssignTrainer(trainerId);
             _assignedLabel.Text = _controller.GetAssignedTrainerText();
         }
@@ -100,3 +100,4 @@ public class TrainersForm : Form
         }
     }
 }
+

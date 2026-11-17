@@ -8,15 +8,18 @@ public class MainMenuForm : Form
     private readonly MainMenuController _controller;
     private readonly TrainerController _trainerController;
     private readonly ClassCatalogController _catalogController;
+    private readonly RoutineController _routineController;
 
     public MainMenuForm(
         MainMenuController controller,
         TrainerController trainerController,
-        ClassCatalogController catalogController)
+        ClassCatalogController catalogController,
+        RoutineController routineController)
     {
         _controller = controller;
         _trainerController = trainerController;
         _catalogController = catalogController;
+        _routineController = routineController;
         BuildLayout();
     }
 
@@ -67,6 +70,13 @@ public class MainMenuForm : Form
                 using (var classesForm = new GymClassesForm(_catalogController))
                 {
                     classesForm.ShowDialog(this);
+                }
+
+                break;
+            case "Manage routines":
+                using (var routineForm = new RoutineForm(_routineController))
+                {
+                    routineForm.ShowDialog(this);
                 }
 
                 break;
