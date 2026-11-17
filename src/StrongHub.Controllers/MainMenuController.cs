@@ -10,7 +10,7 @@ public class MainMenuController
     };
 
     private static readonly string[] TrainerOptions =
-        { "Manage routines", "Trainers", "Timeline" };
+        { "Manage routines", "Trainers", "Shame badges", "Timeline" };
 
     private readonly SessionContext _session;
 
@@ -24,3 +24,4 @@ public class MainMenuController
         return $"Welcome, {_session.CurrentUser?.Name} ({role})";
     }
 }
+

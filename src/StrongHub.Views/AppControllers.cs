@@ -10,4 +10,6 @@ public record AppControllers(
     RoutineController Routines,
     RoutineChangesController RoutineChanges,
     VisitController Visits,
-    BadgeController Badges);
+    BadgeController Badges,
+    ShameBadgeController ShameBadges);
+

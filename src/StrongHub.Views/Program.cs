@@ -53,9 +53,18 @@ internal static class Program
         });
         var badgeController = new BadgeController(userBadges, achievementEvaluator, contextFactory, session);
 
+        var shameEvaluator = new BadgeEvaluator(new IBadgeRule[]
+        {
+            new LowestVisitsRule(),
+            new NoProgressRule(),
+            new GoalsNotMetRule()
+        });
+        var shameController = new ShameBadgeController(
+            users, userBadges, visits, shameEvaluator, contextFactory, session);
+
         var app = new AppControllers(
             menuController, trainerController, catalogController, routineController,
-            changesController, visitController, badgeController);
+            changesController, visitController, badgeController, shameController);
 
         // The notification center (next historia) will subscribe here to:
         //   routineController.RoutineCreated, visitController.RestRecommended, badgeController.BadgeEarned
@@ -78,3 +87,4 @@ internal static class Program
         }
     }
 }
+

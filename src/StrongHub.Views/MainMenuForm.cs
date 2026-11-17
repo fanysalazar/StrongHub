@@ -73,9 +73,13 @@ public class MainMenuForm : Form
             case "My badges":
                 ShowDialogOf(new BadgesForm(_app.Badges));
                 break;
+            case "Shame badges":
+                ShowDialogOf(new ShameBadgesForm(_app.ShameBadges));
+                break;
             default:
                 MessageBox.Show($"'{option}' will be available in a later sprint.", "StrongHub");
                 break;
         }
     }
 }
+
