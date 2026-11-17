@@ -1,0 +1,911 @@
+﻿[
+    {
+        "id":  1,
+        "routineId":  2,
+        "userId":  1,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-07-10",
+        "oldWeightKg":  37,
+        "newWeightKg":  43
+    },
+    {
+        "id":  2,
+        "routineId":  3,
+        "userId":  1,
+        "exerciseName":  "Bench press",
+        "date":  "2026-08-08",
+        "oldWeightKg":  55,
+        "newWeightKg":  61
+    },
+    {
+        "id":  3,
+        "routineId":  4,
+        "userId":  1,
+        "exerciseName":  "Plank",
+        "date":  "2026-08-29",
+        "oldWeightKg":  74,
+        "newWeightKg":  76
+    },
+    {
+        "id":  4,
+        "routineId":  5,
+        "userId":  1,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-09-21",
+        "oldWeightKg":  46,
+        "newWeightKg":  52
+    },
+    {
+        "id":  5,
+        "routineId":  9,
+        "userId":  2,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-08-18",
+        "oldWeightKg":  7,
+        "newWeightKg":  13
+    },
+    {
+        "id":  6,
+        "routineId":  16,
+        "userId":  3,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-09-15",
+        "oldWeightKg":  29,
+        "newWeightKg":  34
+    },
+    {
+        "id":  7,
+        "routineId":  18,
+        "userId":  4,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-06-20",
+        "oldWeightKg":  92,
+        "newWeightKg":  98
+    },
+    {
+        "id":  8,
+        "routineId":  19,
+        "userId":  4,
+        "exerciseName":  "Squat",
+        "date":  "2026-07-17",
+        "oldWeightKg":  24,
+        "newWeightKg":  29
+    },
+    {
+        "id":  9,
+        "routineId":  23,
+        "userId":  4,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-10-17",
+        "oldWeightKg":  21,
+        "newWeightKg":  24
+    },
+    {
+        "id":  10,
+        "routineId":  30,
+        "userId":  5,
+        "exerciseName":  "Squat",
+        "date":  "2026-11-05",
+        "oldWeightKg":  50,
+        "newWeightKg":  52
+    },
+    {
+        "id":  11,
+        "routineId":  32,
+        "userId":  6,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-07-12",
+        "oldWeightKg":  68,
+        "newWeightKg":  71
+    },
+    {
+        "id":  12,
+        "routineId":  33,
+        "userId":  6,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-08-17",
+        "oldWeightKg":  70,
+        "newWeightKg":  76
+    },
+    {
+        "id":  13,
+        "routineId":  41,
+        "userId":  7,
+        "exerciseName":  "Bench press",
+        "date":  "2026-09-19",
+        "oldWeightKg":  29,
+        "newWeightKg":  31
+    },
+    {
+        "id":  14,
+        "routineId":  44,
+        "userId":  8,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-07-24",
+        "oldWeightKg":  94,
+        "newWeightKg":  97
+    },
+    {
+        "id":  15,
+        "routineId":  49,
+        "userId":  8,
+        "exerciseName":  "Squat",
+        "date":  "2026-11-09",
+        "oldWeightKg":  61,
+        "newWeightKg":  66
+    },
+    {
+        "id":  16,
+        "routineId":  53,
+        "userId":  9,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-08-27",
+        "oldWeightKg":  60,
+        "newWeightKg":  65
+    },
+    {
+        "id":  17,
+        "routineId":  54,
+        "userId":  9,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-10-03",
+        "oldWeightKg":  76,
+        "newWeightKg":  81
+    },
+    {
+        "id":  18,
+        "routineId":  55,
+        "userId":  9,
+        "exerciseName":  "Lunge",
+        "date":  "2026-10-08",
+        "oldWeightKg":  69,
+        "newWeightKg":  75
+    },
+    {
+        "id":  19,
+        "routineId":  61,
+        "userId":  10,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-10-16",
+        "oldWeightKg":  78,
+        "newWeightKg":  80
+    },
+    {
+        "id":  20,
+        "routineId":  62,
+        "userId":  10,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-11-06",
+        "oldWeightKg":  13,
+        "newWeightKg":  16
+    },
+    {
+        "id":  21,
+        "routineId":  63,
+        "userId":  11,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-06-24",
+        "oldWeightKg":  61,
+        "newWeightKg":  64
+    },
+    {
+        "id":  22,
+        "routineId":  67,
+        "userId":  11,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-10-04",
+        "oldWeightKg":  47,
+        "newWeightKg":  49
+    },
+    {
+        "id":  23,
+        "routineId":  69,
+        "userId":  11,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-11-06",
+        "oldWeightKg":  45,
+        "newWeightKg":  51
+    },
+    {
+        "id":  24,
+        "routineId":  71,
+        "userId":  12,
+        "exerciseName":  "Plank",
+        "date":  "2026-07-31",
+        "oldWeightKg":  53,
+        "newWeightKg":  59
+    },
+    {
+        "id":  25,
+        "routineId":  74,
+        "userId":  12,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-09-29",
+        "oldWeightKg":  40,
+        "newWeightKg":  46
+    },
+    {
+        "id":  26,
+        "routineId":  82,
+        "userId":  14,
+        "exerciseName":  "Bench press",
+        "date":  "2026-08-18",
+        "oldWeightKg":  65,
+        "newWeightKg":  68
+    },
+    {
+        "id":  27,
+        "routineId":  83,
+        "userId":  14,
+        "exerciseName":  "Bench press",
+        "date":  "2026-08-24",
+        "oldWeightKg":  92,
+        "newWeightKg":  96
+    },
+    {
+        "id":  28,
+        "routineId":  90,
+        "userId":  15,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-10-02",
+        "oldWeightKg":  44,
+        "newWeightKg":  48
+    },
+    {
+        "id":  29,
+        "routineId":  91,
+        "userId":  16,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-06-18",
+        "oldWeightKg":  33,
+        "newWeightKg":  37
+    },
+    {
+        "id":  30,
+        "routineId":  93,
+        "userId":  16,
+        "exerciseName":  "Plank",
+        "date":  "2026-08-10",
+        "oldWeightKg":  43,
+        "newWeightKg":  49
+    },
+    {
+        "id":  31,
+        "routineId":  96,
+        "userId":  16,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-10-05",
+        "oldWeightKg":  32,
+        "newWeightKg":  38
+    },
+    {
+        "id":  32,
+        "routineId":  98,
+        "userId":  17,
+        "exerciseName":  "Squat",
+        "date":  "2026-07-14",
+        "oldWeightKg":  55,
+        "newWeightKg":  57
+    },
+    {
+        "id":  33,
+        "routineId":  100,
+        "userId":  17,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-08-25",
+        "oldWeightKg":  33,
+        "newWeightKg":  38
+    },
+    {
+        "id":  34,
+        "routineId":  101,
+        "userId":  17,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-09-21",
+        "oldWeightKg":  68,
+        "newWeightKg":  71
+    },
+    {
+        "id":  35,
+        "routineId":  111,
+        "userId":  19,
+        "exerciseName":  "Bench press",
+        "date":  "2026-07-27",
+        "oldWeightKg":  97,
+        "newWeightKg":  100
+    },
+    {
+        "id":  36,
+        "routineId":  120,
+        "userId":  20,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-10-02",
+        "oldWeightKg":  16,
+        "newWeightKg":  19
+    },
+    {
+        "id":  37,
+        "routineId":  122,
+        "userId":  21,
+        "exerciseName":  "Squat",
+        "date":  "2026-06-21",
+        "oldWeightKg":  28,
+        "newWeightKg":  34
+    },
+    {
+        "id":  38,
+        "routineId":  131,
+        "userId":  22,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-08-06",
+        "oldWeightKg":  69,
+        "newWeightKg":  75
+    },
+    {
+        "id":  39,
+        "routineId":  138,
+        "userId":  23,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-08-29",
+        "oldWeightKg":  68,
+        "newWeightKg":  73
+    },
+    {
+        "id":  40,
+        "routineId":  142,
+        "userId":  24,
+        "exerciseName":  "Lunge",
+        "date":  "2026-07-04",
+        "oldWeightKg":  33,
+        "newWeightKg":  36
+    },
+    {
+        "id":  41,
+        "routineId":  143,
+        "userId":  24,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-07-13",
+        "oldWeightKg":  72,
+        "newWeightKg":  77
+    },
+    {
+        "id":  42,
+        "routineId":  144,
+        "userId":  24,
+        "exerciseName":  "Bench press",
+        "date":  "2026-08-14",
+        "oldWeightKg":  15,
+        "newWeightKg":  21
+    },
+    {
+        "id":  43,
+        "routineId":  147,
+        "userId":  25,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-07-10",
+        "oldWeightKg":  89,
+        "newWeightKg":  91
+    },
+    {
+        "id":  44,
+        "routineId":  150,
+        "userId":  25,
+        "exerciseName":  "Plank",
+        "date":  "2026-09-02",
+        "oldWeightKg":  59,
+        "newWeightKg":  63
+    },
+    {
+        "id":  45,
+        "routineId":  152,
+        "userId":  25,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-10-11",
+        "oldWeightKg":  86,
+        "newWeightKg":  90
+    },
+    {
+        "id":  46,
+        "routineId":  155,
+        "userId":  26,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-08-12",
+        "oldWeightKg":  42,
+        "newWeightKg":  48
+    },
+    {
+        "id":  47,
+        "routineId":  160,
+        "userId":  27,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-07-24",
+        "oldWeightKg":  42,
+        "newWeightKg":  44
+    },
+    {
+        "id":  48,
+        "routineId":  163,
+        "userId":  27,
+        "exerciseName":  "Lunge",
+        "date":  "2026-10-03",
+        "oldWeightKg":  82,
+        "newWeightKg":  84
+    },
+    {
+        "id":  49,
+        "routineId":  166,
+        "userId":  28,
+        "exerciseName":  "Bench press",
+        "date":  "2026-06-27",
+        "oldWeightKg":  14,
+        "newWeightKg":  18
+    },
+    {
+        "id":  50,
+        "routineId":  168,
+        "userId":  28,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-08-03",
+        "oldWeightKg":  58,
+        "newWeightKg":  62
+    },
+    {
+        "id":  51,
+        "routineId":  170,
+        "userId":  28,
+        "exerciseName":  "Plank",
+        "date":  "2026-09-23",
+        "oldWeightKg":  39,
+        "newWeightKg":  43
+    },
+    {
+        "id":  52,
+        "routineId":  174,
+        "userId":  29,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-07-23",
+        "oldWeightKg":  67,
+        "newWeightKg":  71
+    },
+    {
+        "id":  53,
+        "routineId":  175,
+        "userId":  29,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-08-18",
+        "oldWeightKg":  49,
+        "newWeightKg":  51
+    },
+    {
+        "id":  54,
+        "routineId":  179,
+        "userId":  30,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-06-28",
+        "oldWeightKg":  33,
+        "newWeightKg":  35
+    },
+    {
+        "id":  55,
+        "routineId":  181,
+        "userId":  30,
+        "exerciseName":  "Squat",
+        "date":  "2026-08-07",
+        "oldWeightKg":  88,
+        "newWeightKg":  91
+    },
+    {
+        "id":  56,
+        "routineId":  189,
+        "userId":  31,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-09-20",
+        "oldWeightKg":  54,
+        "newWeightKg":  56
+    },
+    {
+        "id":  57,
+        "routineId":  190,
+        "userId":  31,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-10-19",
+        "oldWeightKg":  58,
+        "newWeightKg":  62
+    },
+    {
+        "id":  58,
+        "routineId":  192,
+        "userId":  32,
+        "exerciseName":  "Lunge",
+        "date":  "2026-07-23",
+        "oldWeightKg":  94,
+        "newWeightKg":  97
+    },
+    {
+        "id":  59,
+        "routineId":  198,
+        "userId":  33,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-06-27",
+        "oldWeightKg":  71,
+        "newWeightKg":  76
+    },
+    {
+        "id":  60,
+        "routineId":  199,
+        "userId":  33,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-07-15",
+        "oldWeightKg":  81,
+        "newWeightKg":  87
+    },
+    {
+        "id":  61,
+        "routineId":  201,
+        "userId":  33,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-09-05",
+        "oldWeightKg":  79,
+        "newWeightKg":  84
+    },
+    {
+        "id":  62,
+        "routineId":  203,
+        "userId":  34,
+        "exerciseName":  "Bench press",
+        "date":  "2026-06-28",
+        "oldWeightKg":  39,
+        "newWeightKg":  45
+    },
+    {
+        "id":  63,
+        "routineId":  210,
+        "userId":  35,
+        "exerciseName":  "Plank",
+        "date":  "2026-06-22",
+        "oldWeightKg":  10,
+        "newWeightKg":  16
+    },
+    {
+        "id":  64,
+        "routineId":  215,
+        "userId":  35,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-10-23",
+        "oldWeightKg":  80,
+        "newWeightKg":  86
+    },
+    {
+        "id":  65,
+        "routineId":  217,
+        "userId":  36,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-08-01",
+        "oldWeightKg":  43,
+        "newWeightKg":  47
+    },
+    {
+        "id":  66,
+        "routineId":  224,
+        "userId":  37,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-08-20",
+        "oldWeightKg":  35,
+        "newWeightKg":  40
+    },
+    {
+        "id":  67,
+        "routineId":  225,
+        "userId":  37,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-08-31",
+        "oldWeightKg":  54,
+        "newWeightKg":  56
+    },
+    {
+        "id":  68,
+        "routineId":  226,
+        "userId":  37,
+        "exerciseName":  "Plank",
+        "date":  "2026-09-30",
+        "oldWeightKg":  54,
+        "newWeightKg":  57
+    },
+    {
+        "id":  69,
+        "routineId":  231,
+        "userId":  38,
+        "exerciseName":  "Squat",
+        "date":  "2026-08-15",
+        "oldWeightKg":  20,
+        "newWeightKg":  24
+    },
+    {
+        "id":  70,
+        "routineId":  233,
+        "userId":  38,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-09-22",
+        "oldWeightKg":  81,
+        "newWeightKg":  83
+    },
+    {
+        "id":  71,
+        "routineId":  234,
+        "userId":  39,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-06-20",
+        "oldWeightKg":  87,
+        "newWeightKg":  92
+    },
+    {
+        "id":  72,
+        "routineId":  235,
+        "userId":  39,
+        "exerciseName":  "Bench press",
+        "date":  "2026-07-21",
+        "oldWeightKg":  74,
+        "newWeightKg":  78
+    },
+    {
+        "id":  73,
+        "routineId":  237,
+        "userId":  39,
+        "exerciseName":  "Bench press",
+        "date":  "2026-09-14",
+        "oldWeightKg":  27,
+        "newWeightKg":  29
+    },
+    {
+        "id":  74,
+        "routineId":  239,
+        "userId":  40,
+        "exerciseName":  "Bench press",
+        "date":  "2026-07-02",
+        "oldWeightKg":  77,
+        "newWeightKg":  80
+    },
+    {
+        "id":  75,
+        "routineId":  242,
+        "userId":  40,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-08-30",
+        "oldWeightKg":  67,
+        "newWeightKg":  72
+    },
+    {
+        "id":  76,
+        "routineId":  243,
+        "userId":  40,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-09-18",
+        "oldWeightKg":  89,
+        "newWeightKg":  91
+    },
+    {
+        "id":  77,
+        "routineId":  244,
+        "userId":  41,
+        "exerciseName":  "Plank",
+        "date":  "2026-06-21",
+        "oldWeightKg":  87,
+        "newWeightKg":  93
+    },
+    {
+        "id":  78,
+        "routineId":  247,
+        "userId":  41,
+        "exerciseName":  "Lunge",
+        "date":  "2026-08-30",
+        "oldWeightKg":  31,
+        "newWeightKg":  35
+    },
+    {
+        "id":  79,
+        "routineId":  250,
+        "userId":  42,
+        "exerciseName":  "Lunge",
+        "date":  "2026-07-25",
+        "oldWeightKg":  18,
+        "newWeightKg":  22
+    },
+    {
+        "id":  80,
+        "routineId":  252,
+        "userId":  42,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-09-03",
+        "oldWeightKg":  32,
+        "newWeightKg":  34
+    },
+    {
+        "id":  81,
+        "routineId":  255,
+        "userId":  43,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-07-26",
+        "oldWeightKg":  81,
+        "newWeightKg":  83
+    },
+    {
+        "id":  82,
+        "routineId":  256,
+        "userId":  43,
+        "exerciseName":  "Plank",
+        "date":  "2026-08-07",
+        "oldWeightKg":  39,
+        "newWeightKg":  41
+    },
+    {
+        "id":  83,
+        "routineId":  258,
+        "userId":  43,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-09-22",
+        "oldWeightKg":  87,
+        "newWeightKg":  89
+    },
+    {
+        "id":  84,
+        "routineId":  266,
+        "userId":  45,
+        "exerciseName":  "Bench press",
+        "date":  "2026-06-20",
+        "oldWeightKg":  79,
+        "newWeightKg":  85
+    },
+    {
+        "id":  85,
+        "routineId":  267,
+        "userId":  45,
+        "exerciseName":  "Bench press",
+        "date":  "2026-07-25",
+        "oldWeightKg":  93,
+        "newWeightKg":  96
+    },
+    {
+        "id":  86,
+        "routineId":  269,
+        "userId":  45,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-09-02",
+        "oldWeightKg":  72,
+        "newWeightKg":  77
+    },
+    {
+        "id":  87,
+        "routineId":  270,
+        "userId":  45,
+        "exerciseName":  "Bench press",
+        "date":  "2026-09-19",
+        "oldWeightKg":  18,
+        "newWeightKg":  22
+    },
+    {
+        "id":  88,
+        "routineId":  272,
+        "userId":  45,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-11-10",
+        "oldWeightKg":  34,
+        "newWeightKg":  39
+    },
+    {
+        "id":  89,
+        "routineId":  276,
+        "userId":  46,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-09-09",
+        "oldWeightKg":  79,
+        "newWeightKg":  82
+    },
+    {
+        "id":  90,
+        "routineId":  278,
+        "userId":  46,
+        "exerciseName":  "Pull-up",
+        "date":  "2026-10-17",
+        "oldWeightKg":  44,
+        "newWeightKg":  49
+    },
+    {
+        "id":  91,
+        "routineId":  282,
+        "userId":  47,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-08-09",
+        "oldWeightKg":  15,
+        "newWeightKg":  20
+    },
+    {
+        "id":  92,
+        "routineId":  283,
+        "userId":  47,
+        "exerciseName":  "Plank",
+        "date":  "2026-08-28",
+        "oldWeightKg":  74,
+        "newWeightKg":  76
+    },
+    {
+        "id":  93,
+        "routineId":  289,
+        "userId":  48,
+        "exerciseName":  "Barbell row",
+        "date":  "2026-08-25",
+        "oldWeightKg":  34,
+        "newWeightKg":  39
+    },
+    {
+        "id":  94,
+        "routineId":  291,
+        "userId":  48,
+        "exerciseName":  "Lunge",
+        "date":  "2026-10-22",
+        "oldWeightKg":  17,
+        "newWeightKg":  20
+    },
+    {
+        "id":  95,
+        "routineId":  292,
+        "userId":  48,
+        "exerciseName":  "Plank",
+        "date":  "2026-11-17",
+        "oldWeightKg":  35,
+        "newWeightKg":  40
+    },
+    {
+        "id":  96,
+        "routineId":  294,
+        "userId":  49,
+        "exerciseName":  "Plank",
+        "date":  "2026-07-30",
+        "oldWeightKg":  11,
+        "newWeightKg":  14
+    },
+    {
+        "id":  97,
+        "routineId":  295,
+        "userId":  49,
+        "exerciseName":  "Lunge",
+        "date":  "2026-08-14",
+        "oldWeightKg":  39,
+        "newWeightKg":  44
+    },
+    {
+        "id":  98,
+        "routineId":  297,
+        "userId":  49,
+        "exerciseName":  "Lunge",
+        "date":  "2026-09-23",
+        "oldWeightKg":  59,
+        "newWeightKg":  63
+    },
+    {
+        "id":  99,
+        "routineId":  300,
+        "userId":  50,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-07-16",
+        "oldWeightKg":  92,
+        "newWeightKg":  94
+    },
+    {
+        "id":  100,
+        "routineId":  302,
+        "userId":  50,
+        "exerciseName":  "Shoulder press",
+        "date":  "2026-09-15",
+        "oldWeightKg":  73,
+        "newWeightKg":  77
+    },
+    {
+        "id":  101,
+        "routineId":  304,
+        "userId":  50,
+        "exerciseName":  "Deadlift",
+        "date":  "2026-10-15",
+        "oldWeightKg":  69,
+        "newWeightKg":  72
+    }
+]

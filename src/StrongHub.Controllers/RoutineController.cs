@@ -18,12 +18,18 @@ public class RoutineController
     private readonly IRoutineRepository _routines;
     private readonly IRepository<BasicUser> _users;
     private readonly SessionContext _session;
+    private readonly IRepository<RoutineChange> _changes;
 
-    public RoutineController(IRoutineRepository routines, IRepository<BasicUser> users, SessionContext session)
+    public RoutineController(
+        IRoutineRepository routines,
+        IRepository<BasicUser> users,
+        SessionContext session,
+        IRepository<RoutineChange> changes)
     {
         _routines = routines;
         _users = users;
         _session = session;
+        _changes = changes;
     }
 
     /// <summary>Raised after a routine is saved (the timeline will listen to it).</summary>
@@ -128,7 +134,10 @@ public class RoutineController
         return routine;
     }
 
-    /// <summary>Validates and saves the changes of an existing routine. The member does not change.</summary>
+    /// <summary>
+    /// Validates and saves the changes of an existing routine. The member does not change.
+    /// Every exercise whose weight changed is recorded automatically as a RoutineChange.
+    /// </summary>
     public Routine Update(int routineId, string name, DateOnly startDate, DateOnly endDate,
         IReadOnlyList<Exercise> exercises)
     {
@@ -139,12 +148,21 @@ public class RoutineController
         name = name.Trim();
         ValidateRoutine(name, startDate, endDate, exercises);
 
+        List<RoutineChange> detected = RoutineChangeDetector.Detect(
+            routine.Exercises, exercises, routine.Id, routine.UserId, DateOnly.FromDateTime(DateTime.Today));
+
         routine.Name = name;
         routine.StartDate = startDate;
         routine.EndDate = endDate;
         routine.Exercises = CloneExercises(exercises);
 
         _routines.Update(routine);
+
+        foreach (RoutineChange change in detected)
+        {
+            _changes.Add(change);
+        }
+
         return routine;
     }
 

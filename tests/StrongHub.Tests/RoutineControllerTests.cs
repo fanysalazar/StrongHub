@@ -12,6 +12,7 @@ public class RoutineControllerTests
     private readonly InMemoryRoutineRepository _routines = new();
     private readonly InMemoryRepository<BasicUser> _users = new();
     private readonly SessionContext _session = new();
+    private readonly InMemoryRepository<RoutineChange> _changes = new();
     private readonly RoutineController _controller;
 
     public RoutineControllerTests()
@@ -19,7 +20,7 @@ public class RoutineControllerTests
         _users.Add(new BasicUser { Name = "Zaira Beltran", Username = "zaira", TrainerId = 7 });
         _users.Add(new BasicUser { Name = "Anselmo Rueda", Username = "anselmo", TrainerId = 3 });
         _session.SignIn(new Trainer { Id = 7, Name = "Marco Villalta", Username = "marcov" });
-        _controller = new RoutineController(_routines, _users, _session);
+        _controller = new RoutineController(_routines, _users, _session, _changes);
     }
 
     private static List<Exercise> OneExercise() =>
@@ -245,3 +246,4 @@ public class RoutineControllerTests
         Assert.Throws<RoutineNotFoundException>(() => _controller.GetRoutineForEdit(99));
     }
 }
+

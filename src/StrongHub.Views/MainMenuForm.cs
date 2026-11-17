@@ -9,17 +9,20 @@ public class MainMenuForm : Form
     private readonly TrainerController _trainerController;
     private readonly ClassCatalogController _catalogController;
     private readonly RoutineController _routineController;
+    private readonly RoutineChangesController _changesController;
 
     public MainMenuForm(
         MainMenuController controller,
         TrainerController trainerController,
         ClassCatalogController catalogController,
-        RoutineController routineController)
+        RoutineController routineController,
+        RoutineChangesController changesController)
     {
         _controller = controller;
         _trainerController = trainerController;
         _catalogController = catalogController;
         _routineController = routineController;
+        _changesController = changesController;
         BuildLayout();
     }
 
@@ -77,6 +80,13 @@ public class MainMenuForm : Form
                 using (var routineListForm = new RoutineListForm(_routineController))
                 {
                     routineListForm.ShowDialog(this);
+                }
+
+                break;
+            case "Load increases":
+                using (var changesForm = new RoutineChangesForm(_changesController))
+                {
+                    changesForm.ShowDialog(this);
                 }
 
                 break;
