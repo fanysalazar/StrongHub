@@ -29,6 +29,7 @@ internal static class Program
         var gymClasses = new JsonRepository<GymClass>(Path.Combine(dataFolder, "gymclasses.json"));
         var routines = new RoutineRepository(Path.Combine(dataFolder, "routines.json"));
         var routineChanges = new JsonRepository<RoutineChange>(Path.Combine(dataFolder, "routinechanges.json"));
+        var visits = new VisitRepository(Path.Combine(dataFolder, "visits.json"));
 
         var session = new SessionContext();
         var authController = new AuthController(users, trainers, session);
@@ -38,8 +39,10 @@ internal static class Program
         var catalogController = new ClassCatalogController(gymClasses);
         var routineController = new RoutineController(routines, users, session, routineChanges);
         var changesController = new RoutineChangesController(routineChanges, routines, session);
+        var visitController = new VisitController(visits, gymClasses, session);
 
-        // Sprint 3: the notification center will subscribe to routineController.RoutineCreated here.
+        // The notification center (Sprint 3) will subscribe here to:
+        //   routineController.RoutineCreated and visitController.RestRecommended
 
         while (true)
         {
@@ -50,7 +53,8 @@ internal static class Program
             }
 
             using var menuForm = new MainMenuForm(
-                menuController, trainerController, catalogController, routineController, changesController);
+                menuController, trainerController, catalogController,
+                routineController, changesController, visitController);
             if (menuForm.ShowDialog() != DialogResult.Retry)
             {
                 return;

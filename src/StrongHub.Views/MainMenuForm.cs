@@ -10,19 +10,22 @@ public class MainMenuForm : Form
     private readonly ClassCatalogController _catalogController;
     private readonly RoutineController _routineController;
     private readonly RoutineChangesController _changesController;
+    private readonly VisitController _visitController;
 
     public MainMenuForm(
         MainMenuController controller,
         TrainerController trainerController,
         ClassCatalogController catalogController,
         RoutineController routineController,
-        RoutineChangesController changesController)
+        RoutineChangesController changesController,
+        VisitController visitController)
     {
         _controller = controller;
         _trainerController = trainerController;
         _catalogController = catalogController;
         _routineController = routineController;
         _changesController = changesController;
+        _visitController = visitController;
         BuildLayout();
     }
 
@@ -87,6 +90,13 @@ public class MainMenuForm : Form
                 using (var changesForm = new RoutineChangesForm(_changesController))
                 {
                     changesForm.ShowDialog(this);
+                }
+
+                break;
+            case "Register visit":
+                using (var visitForm = new VisitForm(_visitController))
+                {
+                    visitForm.ShowDialog(this);
                 }
 
                 break;
