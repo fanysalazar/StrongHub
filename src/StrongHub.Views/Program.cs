@@ -32,6 +32,7 @@ internal static class Program
         var visits = new VisitRepository(Path.Combine(dataFolder, "visits.json"));
         var measurements = new JsonRepository<Measurement>(Path.Combine(dataFolder, "measurements.json"));
         var userBadges = new JsonRepository<UserBadge>(Path.Combine(dataFolder, "badges.json"));
+        var notifications = new JsonRepository<Notification>(Path.Combine(dataFolder, "notifications.json"));
 
         var session = new SessionContext();
         var authController = new AuthController(users, trainers, session);
@@ -62,12 +63,20 @@ internal static class Program
         var shameController = new ShameBadgeController(
             users, userBadges, visits, shameEvaluator, contextFactory, session);
 
+        // Observer pattern: the notification center listens to the controllers and writes the timeline.
+        var unseenTracker = new UnseenNotificationTracker();
+        var notificationCenter = new NotificationCenter(notifications);
+        notificationCenter.Subscribe(unseenTracker);
+        notificationCenter.ListenTo(routineController);
+        notificationCenter.ListenTo(visitController);
+        notificationCenter.ListenTo(badgeController);
+        // Next sprint: shameController.ShameBadgeAssigned (1.5.3) and the trainer alerts (1.5.2).
+
+        var timelineController = new TimelineController(notifications, unseenTracker, session);
+
         var app = new AppControllers(
             menuController, trainerController, catalogController, routineController,
-            changesController, visitController, badgeController, shameController);
-
-        // The notification center (next historia) will subscribe here to:
-        //   routineController.RoutineCreated, visitController.RestRecommended, badgeController.BadgeEarned
+            changesController, visitController, badgeController, shameController, timelineController);
 
         while (true)
         {
@@ -87,4 +96,3 @@ internal static class Program
         }
     }
 }
-

@@ -4,6 +4,7 @@
 public class MainMenuForm : Form
 {
     private readonly AppControllers _app;
+    private readonly Label _notificationLabel = new() { AutoSize = true, ForeColor = Color.DimGray };
 
     public MainMenuForm(AppControllers app)
     {
@@ -19,7 +20,7 @@ public class MainMenuForm : Form
         StartPosition = FormStartPosition.CenterScreen;
         FormBorderStyle = FormBorderStyle.FixedDialog;
         MaximizeBox = false;
-        ClientSize = new Size(360, 130 + options.Count * 45);
+        ClientSize = new Size(360, 145 + options.Count * 45);
 
         Controls.Add(new Label
         {
@@ -29,7 +30,11 @@ public class MainMenuForm : Form
             Location = new Point(20, 15)
         });
 
-        int top = 60;
+        _notificationLabel.Location = new Point(20, 45);
+        Controls.Add(_notificationLabel);
+        RefreshNotificationLabel();
+
+        int top = 75;
         foreach (string option in options)
         {
             var button = new Button { Text = option, Location = new Point(20, top), Size = new Size(320, 36) };
@@ -41,6 +46,14 @@ public class MainMenuForm : Form
         var logoutButton = new Button { Text = "Log out", Location = new Point(20, top + 10), Size = new Size(320, 36) };
         logoutButton.Click += (_, _) => DialogResult = DialogResult.Retry;
         Controls.Add(logoutButton);
+    }
+
+    private void RefreshNotificationLabel()
+    {
+        int unseen = _app.Timeline.GetUnseenCount();
+        _notificationLabel.Text = unseen == 0
+            ? "No new notifications"
+            : $"New notifications: {unseen} (open Timeline)";
     }
 
     private void ShowDialogOf(Form form)
@@ -76,10 +89,14 @@ public class MainMenuForm : Form
             case "Shame badges":
                 ShowDialogOf(new ShameBadgesForm(_app.ShameBadges));
                 break;
+            case "Timeline":
+                ShowDialogOf(new TimelineForm(_app.Timeline));
+                break;
             default:
                 MessageBox.Show($"'{option}' will be available in a later sprint.", "StrongHub");
                 break;
         }
+
+        RefreshNotificationLabel();
     }
 }
-

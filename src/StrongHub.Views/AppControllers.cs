@@ -11,5 +11,5 @@ public record AppControllers(
     RoutineChangesController RoutineChanges,
     VisitController Visits,
     BadgeController Badges,
-    ShameBadgeController ShameBadges);
-
+    ShameBadgeController ShameBadges,
+    TimelineController Timeline);
