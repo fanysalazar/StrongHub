@@ -68,6 +68,9 @@ public class MainMenuForm : Form
     {
         switch (option)
         {
+            case "My history":
+                ShowDialogOf(new MyHistoryForm(_app));
+                break;
             case "Trainers":
                 ShowDialogOf(new TrainersForm(_app.Trainers));
                 break;

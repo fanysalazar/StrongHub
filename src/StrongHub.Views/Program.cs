@@ -43,6 +43,8 @@ internal static class Program
         var routineController = new RoutineController(routines, users, session, routineChanges);
         var changesController = new RoutineChangesController(routineChanges, routines, session);
         var visitController = new VisitController(visits, gymClasses, session);
+        var routineHistoryController = new RoutineHistoryController(routines, trainers, session);
+        var measurementController = new MeasurementController(measurements, session);
 
         var contextFactory = new BadgeContextFactory(measurements, visits);
         var achievementEvaluator = new BadgeEvaluator(new IBadgeRule[]
@@ -76,7 +78,8 @@ internal static class Program
 
         var app = new AppControllers(
             menuController, trainerController, catalogController, routineController,
-            changesController, visitController, badgeController, shameController, timelineController);
+            changesController, visitController, badgeController, shameController, timelineController,
+            routineHistoryController, measurementController);
 
         while (true)
         {

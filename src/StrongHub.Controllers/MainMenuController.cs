@@ -5,7 +5,7 @@ public class MainMenuController
 {
     private static readonly string[] BasicUserOptions =
     {
-        "My routines", "Load increases", "Gym classes", "Trainers",
+        "My history", "Load increases", "Gym classes", "Trainers",
         "Register visit", "My badges", "Timeline", "Statistics"
     };
 
@@ -24,4 +24,3 @@ public class MainMenuController
         return $"Welcome, {_session.CurrentUser?.Name} ({role})";
     }
 }
-
