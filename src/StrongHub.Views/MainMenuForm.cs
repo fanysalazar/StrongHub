@@ -93,7 +93,10 @@ public class MainMenuForm : Form
                 ShowDialogOf(new ShameBadgesForm(_app.ShameBadges));
                 break;
             case "Timeline":
-                ShowDialogOf(new TimelineForm(_app.Timeline));
+                ShowDialogOf(new TimelineForm(_app.Timeline, _app.TrainerAlerts));
+                break;
+            case "Statistics":
+                ShowDialogOf(new StatisticsForm(_app.Statistics));
                 break;
             default:
                 MessageBox.Show($"'{option}' will be available in a later sprint.", "StrongHub");

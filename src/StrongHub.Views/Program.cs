@@ -33,6 +33,7 @@ internal static class Program
         var measurements = new JsonRepository<Measurement>(Path.Combine(dataFolder, "measurements.json"));
         var userBadges = new JsonRepository<UserBadge>(Path.Combine(dataFolder, "badges.json"));
         var notifications = new JsonRepository<Notification>(Path.Combine(dataFolder, "notifications.json"));
+        var alertSettings = new JsonAlertSettingsStore(Path.Combine(dataFolder, "settings.json"));
 
         var session = new SessionContext();
         var authController = new AuthController(users, trainers, session);
@@ -45,6 +46,9 @@ internal static class Program
         var visitController = new VisitController(visits, gymClasses, session);
         var routineHistoryController = new RoutineHistoryController(routines, trainers, session);
         var measurementController = new MeasurementController(measurements, session);
+
+        var statisticsService = new StatisticsService(measurements, users, visits);
+        var statisticsController = new StatisticsController(statisticsService, session);
 
         var contextFactory = new BadgeContextFactory(measurements, visits);
         var achievementEvaluator = new BadgeEvaluator(new IBadgeRule[]
@@ -72,14 +76,16 @@ internal static class Program
         notificationCenter.ListenTo(routineController);
         notificationCenter.ListenTo(visitController);
         notificationCenter.ListenTo(badgeController);
-        // Next sprint: shameController.ShameBadgeAssigned (1.5.3) and the trainer alerts (1.5.2).
+        notificationCenter.ListenTo(shameController);
 
         var timelineController = new TimelineController(notifications, unseenTracker, session);
+        var trainerAlertController = new TrainerAlertController(
+            notificationCenter, routines, users, measurements, alertSettings, session);
 
         var app = new AppControllers(
             menuController, trainerController, catalogController, routineController,
             changesController, visitController, badgeController, shameController, timelineController,
-            routineHistoryController, measurementController);
+            routineHistoryController, measurementController, statisticsController, trainerAlertController);
 
         while (true)
         {
@@ -88,6 +94,9 @@ internal static class Program
             {
                 return;
             }
+
+            // Trainers receive their alerts (routines about to expire, measurements due) when they sign in.
+            app.TrainerAlerts.Refresh();
 
             using var menuForm = new MainMenuForm(app);
             if (menuForm.ShowDialog() != DialogResult.Retry)

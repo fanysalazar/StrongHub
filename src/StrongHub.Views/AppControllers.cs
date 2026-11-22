@@ -14,4 +14,6 @@ public record AppControllers(
     ShameBadgeController ShameBadges,
     TimelineController Timeline,
     RoutineHistoryController RoutineHistory,
-    MeasurementController Measurements);
+    MeasurementController Measurements,
+    StatisticsController Statistics,
+    TrainerAlertController TrainerAlerts);
